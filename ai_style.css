@@ -8,32 +8,52 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #090d16;
+  line-height: 1.6;
 }
+
+a {
+  color: inherit;
+}
+
+/* =========================
+   NAVIGATION
+========================= */
 
 nav {
   display: flex;
-
   justify-content: space-between;
-
   align-items: center;
 
   padding: 20px 80px;
+
+  background-color: #090d16;
+}
+
+#nav-heading {
+  font-size: 24px;
 }
 
 .nav-menu {
   display: flex;
-
   gap: 30px;
 }
 
 .nav-menu a {
   text-decoration: none;
   font-weight: 500;
+  color: #f0f6fc;
+
+  transition: color 0.3s ease;
 }
 
 .nav-menu a:hover {
-  color: #2563eb;
+  color: #2ea043;
 }
+
+/* =========================
+   HERO
+========================= */
 
 .ai-hero {
   text-align: center;
@@ -91,6 +111,10 @@ nav {
   background-color: transparent;
 }
 
+/* =========================
+   GENERAL SECTIONS
+========================= */
+
 .learning-path,
 .resources-section,
 .support-section,
@@ -123,6 +147,10 @@ nav {
 
   background-color: transparent;
 }
+
+/* =========================
+   LEARNING PATH
+========================= */
 
 .path-grid {
   max-width: 1200px;
@@ -193,6 +221,10 @@ nav {
   background-color: transparent;
 }
 
+/* =========================
+   RESOURCE GRID
+========================= */
+
 .resource-grid {
   max-width: 1200px;
 
@@ -233,6 +265,10 @@ nav {
 
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
 }
+
+/* =========================
+   RESOURCE INFORMATION
+========================= */
 
 .resource-top {
   display: flex;
@@ -291,6 +327,10 @@ nav {
   background-color: transparent;
 }
 
+/* =========================
+   RESOURCE TAGS
+========================= */
+
 .resource-tags {
   display: flex;
 
@@ -316,6 +356,10 @@ nav {
 
   font-size: 12px;
 }
+
+/* =========================
+   RESOURCE FOOTER
+========================= */
 
 .resource-footer {
   display: flex;
@@ -366,6 +410,10 @@ nav {
 
   color: white;
 }
+
+/* =========================
+   SUPPORTING RESOURCES
+========================= */
 
 .support-section {
   background-color: #0c111c;
@@ -423,6 +471,50 @@ nav {
   background-color: transparent;
 }
 
+/* =========================
+   DETAILS / SUMMARY
+========================= */
+
+.guide-section {
+  max-width: 1000px;
+
+  margin: 0 auto;
+}
+
+.guide-section details {
+  background-color: #1e293b;
+
+  border: 1px solid #263449;
+
+  border-radius: 8px;
+
+  margin-bottom: 12px;
+
+  padding: 18px 22px;
+}
+
+.guide-section summary {
+  cursor: pointer;
+
+  color: #f0f6fc;
+
+  font-weight: bold;
+
+  background-color: transparent;
+}
+
+.guide-section details p {
+  margin-top: 15px;
+
+  color: #8b949e;
+
+  background-color: transparent;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
 .home-footer {
   text-align: center;
 
@@ -437,4 +529,70 @@ nav {
 
 .home-footer p {
   background-color: transparent;
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 1000px) {
+  nav {
+    padding: 20px 40px;
+  }
+
+  .path-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .resource-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .support-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 650px) {
+  nav {
+    flex-direction: column;
+
+    gap: 20px;
+
+    padding: 20px;
+  }
+
+  .nav-menu {
+    gap: 15px;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+  }
+
+  .ai-hero {
+    padding: 65px 20px;
+  }
+
+  .ai-hero h1 {
+    font-size: 36px;
+  }
+
+  .ai-hero p {
+    font-size: 16px;
+  }
+
+  .path-grid,
+  .resource-grid,
+  .support-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-title {
+    font-size: 30px;
+  }
 }
