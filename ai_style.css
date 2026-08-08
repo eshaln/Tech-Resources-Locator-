@@ -422,3 +422,19 @@ nav {
 
   background-color: transparent;
 }
+
+.home-footer {
+  text-align: center;
+
+  padding: 30px 20px;
+
+  border-top: 1px solid #1e293b;
+
+  margin-top: 40px;
+
+  color: #8b949e;
+}
+
+.home-footer p {
+  background-color: transparent;
+}
