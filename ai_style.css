@@ -90,3 +90,105 @@ nav {
 
   background-color: transparent;
 }
+
+.learning-path,
+.resources-section,
+.support-section,
+.guide-section {
+  padding: 70px 20px;
+}
+
+.section-title {
+  text-align: center;
+
+  font-size: 36px;
+
+  margin-bottom: 15px;
+
+  color: #f0f6fc;
+
+  background-color: transparent;
+}
+
+.section-description {
+  max-width: 700px;
+
+  margin: 0 auto 45px auto;
+
+  text-align: center;
+
+  color: #8b949e;
+
+  font-size: 17px;
+
+  background-color: transparent;
+}
+
+.path-grid {
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 25px;
+}
+
+.path-card {
+  background-color: #1e293b;
+
+  padding: 30px 25px;
+
+  border-radius: 12px;
+
+  border: 1px solid #263449;
+
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.path-card:hover {
+  transform: translateY(-6px);
+
+  background-color: #243248;
+
+  border-color: #2ea043;
+}
+
+.path-number {
+  display: block;
+
+  margin-bottom: 20px;
+
+  color: #2ea043;
+
+  font-size: 14px;
+
+  font-weight: bold;
+
+  letter-spacing: 2px;
+
+  background-color: transparent;
+}
+
+.path-card h3 {
+  font-size: 22px;
+
+  margin-bottom: 12px;
+
+  color: #f0f6fc;
+
+  background-color: transparent;
+}
+
+.path-card p {
+  color: #8b949e;
+
+  font-size: 15px;
+
+  background-color: transparent;
+}
