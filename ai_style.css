@@ -34,3 +34,59 @@ nav {
 .nav-menu a:hover {
   color: #2563eb;
 }
+
+.ai-hero {
+  text-align: center;
+
+  padding: 90px 20px;
+
+  background: linear-gradient(135deg, #0f172a, #1b4332, #2ea043);
+
+  color: white;
+}
+
+.hero-content {
+  max-width: 900px;
+  margin: 0 auto;
+
+  background-color: transparent;
+}
+
+.hero-label {
+  display: inline-block;
+
+  padding: 6px 14px;
+
+  border: 1px solid #2ea043;
+  border-radius: 20px;
+
+  color: #2ea043;
+
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+  background-color: #090d16;
+}
+
+.ai-hero h1 {
+  margin-top: 25px;
+  margin-bottom: 20px;
+
+  font-size: 48px;
+  line-height: 1.2;
+
+  background-color: transparent;
+}
+
+.ai-hero p {
+  max-width: 700px;
+
+  margin: 0 auto;
+
+  font-size: 19px;
+
+  color: #d1d5db;
+
+  background-color: transparent;
+}
