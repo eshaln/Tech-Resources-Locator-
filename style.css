@@ -235,7 +235,7 @@ body{
   flex-direction: column;
   display:block;
   background-color: #1e293b;
-  border-radius: 24px;
+ 
   color:#2ea043;
   font-family: 'Poppins', sans-serif;
  
@@ -382,7 +382,13 @@ details{
     font-size: 20px;
     color:#e3b341;
 }
+footer{
+    background-color:#0f172a ;
+    color:#f0f6fc;
+    padding: 40px;
+    text-align:center;
 
+}
 
 /* ==========================================================
             Asra Fatma
