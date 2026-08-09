@@ -394,6 +394,14 @@ footer h1{
 
 }
 
+.home-footer {
+  text-align: center;
+  padding: 30px 20px;
+  border-top: 1px solid #1e293b;
+  margin-top: 40px;
+  color: #8b949e;
+}
+
 /* ==========================================================
             Asra Fatma
    ========================================================== */
