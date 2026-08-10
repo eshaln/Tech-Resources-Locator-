@@ -411,11 +411,7 @@ font-family: Arial, Helvetica, sans-serif;
 .web-container h2{
     font-size:42px;
 }
-.resources{
-    display: flex;
-    gap:10px;
-    align-items: center;
-}
+
 .resources h1{
     font-size: 40px;
     font-weight:bold;
@@ -430,12 +426,18 @@ font-family: Arial, Helvetica, sans-serif;
     color: #8b949e;
     text-align: center;
     margin-top: 10px;
-}
+    margin-bottom: 30px;
 
+}
+.resource-container{
+    display: flex;
+    align-items: center;
+
+}
 .resource-cards{
-    width:100%;
+   
     
-    padding: 30px;
+    padding: 20px;
     background-color: #131b27;
     color: #f0f6fc;
     border-radius:20px;
