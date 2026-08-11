@@ -563,6 +563,9 @@ details{
 }
 
 #game-description{
-    font-size: 18px;
-    margin-bottom: 30px;
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 19px;
+    color: #d1d5db;
+    background-color: transparent;
 }
