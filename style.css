@@ -606,6 +606,13 @@ details{
     border-radius: 10px;
 }
 
+.path-step:hover{
+    background-color: #243248;
+    transition: transform 0.3s, box-shadow 0.3s background-color 0.1s ease;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
 .step-number{
     font-size: 24px;
     font-weight: bold;
