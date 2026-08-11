@@ -590,7 +590,7 @@ details{
     color: #d1d5db;
 }
 
-.path-steps{
+.path-grid{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -605,4 +605,11 @@ details{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.step-number{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2ea043;
 }
