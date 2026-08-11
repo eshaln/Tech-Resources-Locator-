@@ -555,6 +555,14 @@ details{
 }
 
 #game-title{
-    font-size: 40px;
+    margin-top: 25px;
     margin-bottom: 20px;
+    font-size: 48px;
+    line-height: 1.2;
+    background-color: transparent;
+}
+
+#game-description{
+    font-size: 18px;
+    margin-bottom: 30px;
 }
