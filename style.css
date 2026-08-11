@@ -101,7 +101,7 @@ body{
     padding: 15px;
     margin: 10px;
     border-radius: 5px;
-    width: 400px;;
+    width: 400px;
     height: 400px;
       background-color: #1e293b;
       border-radius:24px;
@@ -235,7 +235,7 @@ body{
   flex-direction: column;
   display:block;
   background-color: #1e293b;
-  border-radius: 24px;
+ 
   color:#2ea043;
   font-family: 'Poppins', sans-serif;
  
@@ -373,14 +373,90 @@ body{
 .faq-item p{
      text-align: left;
      font-family:'Poppins', sans-serif;
-     color:#2ea043;
+     color: #8b949e;
 
 }
 details{
     text-align: left;
     font-family: 'Poppins',sans-serif;
     font-size: 20px;
-    color:#e3b341;
+    color:white;
+}
+footer{
+    background-color:#0f172a ;
+    color:#f0f6fc;
+    padding: 40px;
+    text-align:center;
+    padding: 30px 20px;
+  border-top: 1px solid #1e293b;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+/* WEB DEVELOPMENT*/
+
+.web-container{
+     background: linear-gradient(135deg, #0f172a, #2ea043);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.web-container h2{
+    font-size:42px;
+}
+
+.resources h1{
+    font-size: 40px;
+    font-weight:bold;
+    text-align:center;
+    color:white;
+    margin-top:40px;
+   
+
+}
+.resources p{
+    font-size:19px;
+    color: #8b949e;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+.resource-container{
+    max-width: 1200px;
+    display: grid;
+    width:90%;
+    margin: 40px auto;
+    align-items: center;
+    gap: 25px;
+   grid-template-columns: repeat(3, 1fr);;
+}
+.resource-cards{
+   
+    
+    padding: 28px;
+    background-color: #1e293b;
+    color: #f0f6fc;
+    border-radius:12px;
+ 
+
+}
+.resource-cards h1{
+    text-align:left;
+    font-size:28px;
+    margin-bottom: 15px;
+}
+.resource-cards p{
+    text-align: left;
+    font-size:15px;
+    color:#8b949e;
 }
 
 
