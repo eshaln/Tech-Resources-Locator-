@@ -591,10 +591,11 @@ details{
 }
 
 .path-grid{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
 }
 
 .path-step{
@@ -617,4 +618,9 @@ details{
 .step-title{
     font-size: 20px;
     margin-bottom: 10px;
+}
+
+.step-description{
+    font-size: 14px;
+    color: #d1d5db;
 }
