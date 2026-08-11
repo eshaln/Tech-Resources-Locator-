@@ -540,3 +540,15 @@ details{
     max-width: 800px;
     margin: 0 auto;
 }
+
+#game-label{
+    display: inline-block;
+    padding: 6px 14px;
+    border: 1px solid #2ea043;
+    border-radius: 20px;
+    color: #2ea043;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: #090d16;
+}
