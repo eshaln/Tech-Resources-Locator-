@@ -536,4 +536,7 @@ details{
     font-family: 'Poppins', sans-serif;
 }
 
-
+.hero-content{
+    max-width: 800px;
+    margin: 0 auto;
+}
