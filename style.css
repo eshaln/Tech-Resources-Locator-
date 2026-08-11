@@ -567,3 +567,10 @@ details{
     font-size: 19px;
     color: #d1d5db;
 }
+
+.section-title{
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #f0f6fc;
+}
