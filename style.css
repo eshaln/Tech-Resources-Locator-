@@ -568,7 +568,15 @@ details{
     color: #d1d5db;
 }
 
-.section-title{
+.path{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #f0f6fc;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 60px;
+}
+
+.section-heading{
     font-size: 36px;
     margin-bottom: 20px;
     text-align: center;
