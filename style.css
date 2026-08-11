@@ -594,14 +594,14 @@ details{
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 25px;
 }
 
 .path-step{
     background-color: #1e293b;
     color: white;
-    max-width: 450px;
+    max-width: 250px;
     padding: 30px 25px;
     border-radius: 10px;
 }
