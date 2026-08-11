@@ -438,10 +438,10 @@ font-family: Arial, Helvetica, sans-serif;
 .resource-cards{
    
     
-    padding: 20px;
+    padding: 30px 25px;
     background-color: #1e293b;
     color: #f0f6fc;
-    border-radius:20px;
+    border-radius:12px;
     width:90%;
     margin:0 auto;
    
