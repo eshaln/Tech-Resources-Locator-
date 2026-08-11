@@ -594,14 +594,14 @@ details{
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 25px;
 }
 
 .path-step{
     background-color: #1e293b;
     color: white;
-    max-width: 250px;
+    max-width: 350px;
     padding: 30px 25px;
     border-radius: 10px;
 }
@@ -629,14 +629,16 @@ details{
 }
 
 .step-title {
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: bold;
     text-align: left;
     margin-left: 0;
     margin-bottom: 12px;
 }
 
 .step-description {
-    font-size: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
     text-align: left;
     margin-left: 0;
     color: #d1d5db;
