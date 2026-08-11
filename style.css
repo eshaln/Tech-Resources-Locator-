@@ -608,24 +608,36 @@ details{
 
 .path-step:hover{
     background-color: #243248;
-    transition: transform 0.3s, box-shadow 0.3s background-color 0.1s ease;
+    transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    background-color 0.3s ease;
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0,0,0,0.3);
 }
 
-.step-number{
-    font-size: 24px;
+.step-number {
+    display: block;
+    font-size: 14px;
     font-weight: bold;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-left: 0;
+    margin-right: auto;
     margin-bottom: 10px;
     color: #2ea043;
 }
 
-.step-title{
+.step-title {
     font-size: 20px;
+    text-align: left;
+    margin-left: 0;
     margin-bottom: 10px;
 }
 
-.step-description{
+.step-description {
     font-size: 14px;
+    text-align: left;
+    margin-left: 0;
     color: #d1d5db;
 }
