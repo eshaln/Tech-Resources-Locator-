@@ -463,6 +463,33 @@ font-family: Arial, Helvetica, sans-serif;
   background-color: transparent;
 }
 
+.resource-tags {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 8px;
+
+  margin-top: auto;
+
+  margin-bottom: 20px;
+
+  background-color: transparent;
+}
+
+.resource-tags span {
+  padding: 5px 10px;
+
+  border-radius: 5px;
+
+  background-color: #090d16;
+
+  color: #8b949e;
+
+  font-size: 12px;
+}
+
+
 .resource-cards h1{
     text-align:left;
     font-size:28px;
