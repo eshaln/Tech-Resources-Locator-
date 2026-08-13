@@ -622,6 +622,12 @@ font-family: Arial, Helvetica, sans-serif;
     background-color: #090d16;
     line-height: 1.6;
 }
+
+.resources,
+.support-section,
+.guide-section{
+    padding: 40px 40px;
+}
 #game-label{
     display: inline-block;
     padding: 6px 14px;
@@ -658,8 +664,9 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .section-heading{
+    margin-top:15px;
     font-size: 36px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     text-align: center;
     color: #f0f6fc;
 }
@@ -731,8 +738,9 @@ font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
     color: #f0f6fc;
     font-family: 'Poppins', sans-serif;
-    margin-top: 60px;
+    margin-top: 10px;
 }
+
 
 .resource-heading{
     margin-bottom: 15px;
@@ -865,13 +873,13 @@ font-family: Arial, Helvetica, sans-serif;
     background-color: #0c111c;
 }
 
-
 .support-grid {
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
+    padding-bottom:20px;
 }
 
 .support-card {
