@@ -44,6 +44,7 @@
 }
 body{
     background-color: #090d16;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .about-card h1{
@@ -71,12 +72,13 @@ body{
     font-family:'Poppins', sans-serif;
     color:#f0f6fc;
 
+
 }
 .about-card{
     display:flex;
     justify-content:center;
     align-items:center;
-   
+  
 }
 
 .about-container{
@@ -95,6 +97,8 @@ body{
     justify-content:center;
     align-items:center;
     gap:30px;
+    margin-bottom: 40px;
+     
     
 }
 .team-member{
@@ -105,7 +109,7 @@ body{
     height: 400px;
       background-color: #1e293b;
       border-radius:24px;
-      
+  
 }
 .team-member:hover{
     background-color: #243248;
@@ -207,24 +211,36 @@ body{
 .about-hero p {
     font-size: 20px;
     line-height: 1.6;
+    font-weight: bold;
     
 }
 /* ==========================================================
-   CONTACT PAGE  */
-.container h1{
+   CONTACT PAGE
+   ==========================================================*/
+   .contact-hero{
+    background: linear-gradient(135deg, #0f172a, #2ea043);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+
+   }
+.contact-hero h1{
     font-family: 'Poppins', sans-serif;
     font-size: 36px;
     font-weight: bold;
     color: #f0f6fc;
     text-align: center;
+    margin-bottom: 10px;
 }
-.container p{
+.contact-hero p{
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    color:#2ea043;
+    font-size: 22px;
+    color:#f0f6fc;
     text-align: center;
     font-weight: bold;
-    margin-bottom: 40px;
+    
 }
     
 .container{
@@ -234,7 +250,7 @@ body{
   align-items: center;
   flex-direction: column;
   display:block;
-  background-color: #1e293b;
+  background-color:#090d16;;
  
   color:#2ea043;
   font-family: 'Poppins', sans-serif;
@@ -263,7 +279,7 @@ body{
    padding:30px;
    border-radius:20px;
    box-sizing:border-box;
-   
+
     
 }
 .contact-form form{
@@ -285,6 +301,8 @@ body{
     border: 1px solid #ccc;
     border-radius:8px;
      box-sizing:border-box;
+        color:#2ea043;
+   
    
 }
 
@@ -316,7 +334,7 @@ body{
 .contact-info{
    width:450px;
     padding: 30px;
-    background-color: #131b27;
+    background-color: #1e293b;
     color: #f0f6fc;
     border-radius:20px;
     box-sizing:border-box;
@@ -361,7 +379,7 @@ body{
     margin-top:15px;
     width:100%;
     width:450px;
-    background-color: #131b27;
+    background-color: #1e293b;
     text-align:center;
     border-radius:20px;
     font-family:'Poppins', sans-serif;
@@ -396,7 +414,9 @@ font-family: Arial, Helvetica, sans-serif;
 
 
 
-/* WEB DEVELOPMENT*/
+/* ==========================================================
+   WEB DEVELOPMENT SECTION
+   ========================================================== */
 
 .web-container{
      background: linear-gradient(135deg, #0f172a, #2ea043);
@@ -411,6 +431,11 @@ font-family: Arial, Helvetica, sans-serif;
 .web-container h2{
     font-size:42px;
 }
+
+
+/* ==========================================================
+   RESOURCES HEADING
+   ========================================================== */
 
 .resources h1{
     font-size: 40px;
@@ -429,6 +454,105 @@ font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 30px;
 
 }
+/* ==========================================================
+   WEB DEV LEARNING PATH
+   ========================================================== */
+
+.web-learning h1{
+    
+    font-size: 40px;
+    font-weight:bold;
+    text-align:center;
+    color:white;
+    margin-top:40px;
+    margin-bottom: 15px;
+}
+
+.web-learning p{
+    font-size:19px;
+    color: #8b949e;
+    text-align: center;
+   
+    margin:0 auto 45px auto;
+
+}
+
+.web-p1 {
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 25px;
+}
+.web-path h1{
+    font-size: 22px;
+
+  margin-bottom: 12px;
+
+  color: #f0f6fc;
+
+  background-color: transparent;
+
+  text-align: left;
+}
+
+.web-path p{
+     color: #8b949e;
+
+  font-size: 15px;
+
+  background-color: transparent;
+
+  
+  text-align: left;
+}
+
+.web-path {
+
+ 
+ background-color: #1e293b;
+
+  padding: 30px 25px;
+
+  border-radius: 12px;
+
+  border: 1px solid #263449;
+
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    background-color 0.3s ease;
+}
+.path-number {
+  display: block;
+
+  margin-bottom: 20px;
+
+  color: #2ea043;
+
+  font-size: 14px;
+
+  font-weight: bold;
+
+  letter-spacing: 2px;
+
+  background-color: transparent;
+}
+.web-path:hover {
+  transform: translateY(-6px);
+
+  background-color: #243248;
+
+  border-color: #2ea043;
+}
+
+/* ==========================================================
+   RESOURCE CARDS CONTAINER
+   ========================================================== */
 .resource-container{
     max-width: 1200px;
     display: grid;
@@ -438,6 +562,11 @@ font-family: Arial, Helvetica, sans-serif;
     gap: 25px;
    grid-template-columns: repeat(3, 1fr);;
 }
+
+/* ==========================================================
+   RESOURCE CARD
+   ========================================================== */
+
 .resource-cards{
    
     
@@ -445,9 +574,81 @@ font-family: Arial, Helvetica, sans-serif;
     background-color: #1e293b;
     color: #f0f6fc;
     border-radius:12px;
- 
+    border: 2px solid #263449;
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+   
+    transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
 
 }
+.resource-cards:hover{
+    
+  transform: translateY(-6px);
+
+  border-color: #2ea043;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/* ==========================================================
+   RESOURCE CARD TOP
+   ========================================================== */
+
+.resource-top {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  gap: 10px;
+
+  margin-bottom: 20px;
+font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+}
+
+/* ==========================================================
+   RESOURCE TAGS
+   ========================================================== */
+
+
+.resource-tag {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 8px;
+
+  margin-top: auto;
+
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  background-color: transparent;
+}
+
+.resource-tag span {
+  padding: 5px 10px;
+
+  border-radius: 5px;
+
+  background-color: #090d16;
+
+  color: #8b949e;
+
+  font-size: 12px;
+}
+/* ==========================================================
+   RESOURCE CARD CONTENT
+   ========================================================== */
+
 .resource-cards h1{
     text-align:left;
     font-size:28px;
@@ -455,11 +656,136 @@ font-family: Arial, Helvetica, sans-serif;
 }
 .resource-cards p{
     text-align: left;
-    font-size:15px;
+    font-size:18px;
     color:#8b949e;
+    margin-bottom: 20px;
+}
+
+/* ==========================================================
+   RESOURCE TYPE & LEVEL
+   ========================================================== */
+
+.resource-type, 
+.resource-level {
+  font-size: 11px;
+
+  font-weight: bold;
+
+  letter-spacing: 1px;
+
+  background-color: transparent;
+}
+
+.resource-type {
+  color: #2ea043;
+}
+
+.resource-level {
+  color: #8b949e;
+
+  text-align: right;
 }
 
 
+/* ==========================================================
+   RESOURCE FOOTER
+   ========================================================== */
+
+
+.resource-footer {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  gap: 15px;
+
+  background-color: transparent;
+}
+/* ==========================================================
+   RESOURCE COST
+   ========================================================== */
+.cost {
+  color: #2ea043;
+
+  font-size: 12px;
+
+  font-weight: bold;
+
+  background-color: transparent;
+}
+
+/* ==========================================================
+   RESOURCE BUTTON
+   ========================================================== */
+
+.resource-button {
+  display: inline-block;
+
+  padding: 9px 15px;
+
+  border-radius: 5px;
+
+  background-color: #090d16;
+
+  color: #2ea043;
+
+  text-decoration: none;
+
+  font-size: 13px;
+
+  font-weight: bold;
+
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+.resource-button:hover {
+  background-color: #2ea043;
+  color: white;
+}
+
+/* ==========================================================
+   SUPPORTING SKILLS
+   ========================================================== */
+
+   .supporting-skills{
+    background-color:#0c111c;
+    color:white;
+    
+
+
+   }.supporting-skills h1{
+    text-align: center;
+    margin-bottom:22px;
+   }
+   .supporting-skills h2{
+    font-size:30px;
+    font-weight:bold;
+    text-align: center;
+   }
+
+   .supporting-container{
+     max-width: 1000px;
+      margin: 0 auto;
+     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+     gap: 25px;
+     justify-items:center;
+   
+    
+   }
+
+   .supporting-card{
+    background-color: #1e293b;
+    padding:25px;
+    border-radius:10px;
+    border-left:4px solid #2ea043;
+    margin-bottom: 30px;;
+    
+
+   }
 /* ==========================================================
             Asra Fatma
    ========================================================== */
