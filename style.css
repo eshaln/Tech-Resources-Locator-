@@ -736,4 +736,11 @@ font-family: Arial, Helvetica, sans-serif;
     color: #f0f6fc;
 }
 
-.resource-
+.resource-grid{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+
+}
