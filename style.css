@@ -721,3 +721,11 @@ font-family: Arial, Helvetica, sans-serif;
     margin-left: 0;
     color: #d1d5db;
 }
+
+.resources{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #f0f6fc;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 60px;
+}
