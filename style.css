@@ -478,6 +478,8 @@ font-family: Arial, Helvetica, sans-serif;
   color: #f0f6fc;
 
   background-color: transparent;
+
+  text-align: left;
 }
 
 .web-path p{
@@ -486,6 +488,9 @@ font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
 
   background-color: transparent;
+
+  
+  text-align: left;
 }
 
 .web-path {
