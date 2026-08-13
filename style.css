@@ -617,6 +617,9 @@ font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
 }
 
+.game-body{
+    font-family: 'Poppins', sans-serif;
+}
 #game-label{
     display: inline-block;
     padding: 6px 14px;
