@@ -275,7 +275,7 @@ body{
    padding:30px;
    border-radius:20px;
    box-sizing:border-box;
-   
+
     
 }
 .contact-form form{
@@ -297,6 +297,8 @@ body{
     border: 1px solid #ccc;
     border-radius:8px;
      box-sizing:border-box;
+        color:#2ea043;
+   
    
 }
 
