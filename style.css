@@ -440,13 +440,22 @@ font-family: Arial, Helvetica, sans-serif;
    WEB DEV LEARNING PATH
    ========================================================== */
 
-.web h1{
+.web-learning h1{
     
     font-size: 40px;
     font-weight:bold;
     text-align:center;
     color:white;
     margin-top:40px;
+}
+
+.web-learning p{
+    font-size:19px;
+    color: #8b949e;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
 }
 /* ==========================================================
    RESOURCE CARDS CONTAINER
