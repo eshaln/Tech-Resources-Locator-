@@ -222,20 +222,21 @@ body{
 
 
    }
-.container h1{
+.contact-hero h1{
     font-family: 'Poppins', sans-serif;
     font-size: 36px;
     font-weight: bold;
     color: #f0f6fc;
     text-align: center;
+    margin-bottom: 10px;
 }
-.container p{
+.contact-hero p{
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    color:#2ea043;
+    font-size: 22px;
+    color:#f0f6fc;
     text-align: center;
     font-weight: bold;
-    margin-bottom: 40px;
+    
 }
     
 .container{
