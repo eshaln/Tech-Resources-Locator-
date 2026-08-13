@@ -479,6 +479,14 @@ font-family: Arial, Helvetica, sans-serif;
   background-color: transparent;
 }
 
+.web-path p{
+     color: #8b949e;
+
+  font-size: 15px;
+
+  background-color: transparent;
+}
+
 .web-path {
   background-color: #1e293b;
 
