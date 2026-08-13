@@ -758,3 +758,9 @@ font-family: Arial, Helvetica, sans-serif;
         box-shadow 0.3s ease,
         border-color 0.3s ease;
 }
+
+.resource-card:hover {
+    transform: translateY(-6px);
+    border-color: #2ea043;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
