@@ -210,7 +210,7 @@ body{
     
 }
 /* ==========================================================
-   CONTACT PAGE  */
+   CONTACT PAGE*/
 .container h1{
     font-family: 'Poppins', sans-serif;
     font-size: 36px;
@@ -524,7 +524,49 @@ font-family: Arial, Helvetica, sans-serif;
   text-align: right;
 }
 
+.resource-footer {
+  display: flex;
 
+  justify-content: space-between;
+
+  align-items: center;
+
+  gap: 15px;
+
+  background-color: transparent;
+}
+
+.cost {
+  color: #2ea043;
+
+  font-size: 12px;
+
+  font-weight: bold;
+
+  background-color: transparent;
+}
+
+.resource-button {
+  display: inline-block;
+
+  padding: 9px 15px;
+
+  border-radius: 5px;
+
+  background-color: #090d16;
+
+  color: #2ea043;
+
+  text-decoration: none;
+
+  font-size: 13px;
+
+  font-weight: bold;
+
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
 /* ==========================================================
             Asra Fatma
    ========================================================== */
