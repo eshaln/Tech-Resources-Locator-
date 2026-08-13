@@ -747,6 +747,10 @@ font-family: Arial, Helvetica, sans-serif;
     color: #f0f6fc;
 }
 
+.resource-heading p{
+    font-size: 16px;
+}
+
 .resource-grid{
     max-width: 1200px;
     margin: 0 auto;
@@ -918,11 +922,13 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .guide-section {
+
     max-width: 1000px;
     margin: 0 auto;
 }
 
 .guide-section details {
+    font-size: 14px;
     background-color: #1e293b;
     border: 1px solid #263449;
     border-radius: 8px;
