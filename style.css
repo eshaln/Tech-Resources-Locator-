@@ -72,12 +72,13 @@ body{
     font-family:'Poppins', sans-serif;
     color:#f0f6fc;
 
+
 }
 .about-card{
     display:flex;
     justify-content:center;
     align-items:center;
-   
+  
 }
 
 .about-container{
@@ -96,6 +97,8 @@ body{
     justify-content:center;
     align-items:center;
     gap:30px;
+    margin-bottom: 40px;
+     
     
 }
 .team-member{
@@ -106,7 +109,7 @@ body{
     height: 400px;
       background-color: #1e293b;
       border-radius:24px;
-      
+  
 }
 .team-member:hover{
     background-color: #243248;
