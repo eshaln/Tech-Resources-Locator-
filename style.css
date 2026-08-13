@@ -619,6 +619,8 @@ font-family: Arial, Helvetica, sans-serif;
 
 .game-body{
     font-family: 'Poppins', sans-serif;
+    background-color: #090d16;
+    line-height: 1.6;
 }
 #game-label{
     display: inline-block;
@@ -727,7 +729,6 @@ font-family: Arial, Helvetica, sans-serif;
 
 .resources{
     margin-bottom: 20px;
-    text-align: center;
     color: #f0f6fc;
     font-family: 'Poppins', sans-serif;
     margin-top: 60px;
@@ -735,7 +736,6 @@ font-family: Arial, Helvetica, sans-serif;
 
 .resource-heading{
     margin-bottom: 15px;
-    text-align: center;
     color: #f0f6fc;
 }
 
@@ -803,6 +803,7 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .resource-card p {
+    text-align: left;
     font-size: 15px;
     color: #8b949e;
     margin-bottom: 20px;
