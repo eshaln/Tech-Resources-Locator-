@@ -245,7 +245,7 @@ body{
   align-items: center;
   flex-direction: column;
   display:block;
-  background-color:#131b27;
+  background-color:#090d16;;
  
   color:#2ea043;
   font-family: 'Poppins', sans-serif;
@@ -372,7 +372,7 @@ body{
     margin-top:15px;
     width:100%;
     width:450px;
-    background-color: #131b27;
+    background-color: #1e293b;
     text-align:center;
     border-radius:20px;
     font-family:'Poppins', sans-serif;
