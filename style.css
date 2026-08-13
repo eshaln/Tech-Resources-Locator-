@@ -758,6 +758,7 @@ font-family: Arial, Helvetica, sans-serif;
 
    }.supporting-skills h1{
     text-align: center;
+    margin-bottom:22px;
    }
    .supporting-skills h2{
     font-size:30px;
@@ -781,6 +782,7 @@ font-family: Arial, Helvetica, sans-serif;
     padding:25px;
     border-radius:10px;
     border-left:4px solid #2ea043;
+    margin-bottom: 30px;;
     
 
    }
