@@ -460,9 +460,27 @@ font-family: Arial, Helvetica, sans-serif;
     background-color: #1e293b;
     color: #f0f6fc;
     border-radius:12px;
-    
+    border: 2px solid #263449;
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+   
+    transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
 
 }
+.resource-cards:hover{
+    
+  transform: translateY(-6px);
+
+  border-color: #2ea043;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+
 
 /* ==========================================================
    RESOURCE CARD TOP
