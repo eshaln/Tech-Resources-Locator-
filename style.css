@@ -753,9 +753,19 @@ font-family: Arial, Helvetica, sans-serif;
    .supporting-skills{
     background-color:#0c111c;
     color:white;
+    align-items: center;
+
 
    }
+   .supporting-skills h1{
+    font-size:30px;
+    font-weight:bold;
+    text-align: center;
+   }
 
+   .supporting-container{
+    display: flex;
+   }
 /* ==========================================================
             Asra Fatma
    ========================================================== */
