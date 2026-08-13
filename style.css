@@ -396,7 +396,9 @@ font-family: Arial, Helvetica, sans-serif;
 
 
 
-/* WEB DEVELOPMENT*/
+/* ==========================================================
+   WEB DEVELOPMENT SECTION
+   ========================================================== */
 
 .web-container{
      background: linear-gradient(135deg, #0f172a, #2ea043);
@@ -411,6 +413,11 @@ font-family: Arial, Helvetica, sans-serif;
 .web-container h2{
     font-size:42px;
 }
+
+
+/* ==========================================================
+   RESOURCES HEADING
+   ========================================================== */
 
 .resources h1{
     font-size: 40px;
@@ -429,6 +436,9 @@ font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 30px;
 
 }
+/* ==========================================================
+   RESOURCE CARDS CONTAINER
+   ========================================================== */
 .resource-container{
     max-width: 1200px;
     display: grid;
@@ -438,6 +448,11 @@ font-family: Arial, Helvetica, sans-serif;
     gap: 25px;
    grid-template-columns: repeat(3, 1fr);;
 }
+
+/* ==========================================================
+   RESOURCE CARD
+   ========================================================== */
+
 .resource-cards{
    
     
@@ -448,6 +463,10 @@ font-family: Arial, Helvetica, sans-serif;
     
 
 }
+
+/* ==========================================================
+   RESOURCE CARD TOP
+   ========================================================== */
 
 .resource-top {
   display: flex;
@@ -462,6 +481,11 @@ font-family: Arial, Helvetica, sans-serif;
 font-family: Arial, Helvetica, sans-serif;
   background-color: transparent;
 }
+
+/* ==========================================================
+   RESOURCE TAGS
+   ========================================================== */
+
 
 .resource-tag {
   display: flex;
@@ -489,7 +513,9 @@ font-family: Arial, Helvetica, sans-serif;
 
   font-size: 12px;
 }
-
+/* ==========================================================
+   RESOURCE CARD CONTENT
+   ========================================================== */
 
 .resource-cards h1{
     text-align:left;
@@ -502,6 +528,10 @@ font-family: Arial, Helvetica, sans-serif;
     color:#8b949e;
     margin-bottom: 20px;
 }
+
+/* ==========================================================
+   RESOURCE TYPE & LEVEL
+   ========================================================== */
 
 .resource-type, 
 .resource-level {
@@ -524,6 +554,12 @@ font-family: Arial, Helvetica, sans-serif;
   text-align: right;
 }
 
+
+/* ==========================================================
+   RESOURCE FOOTER
+   ========================================================== */
+
+
 .resource-footer {
   display: flex;
 
@@ -535,7 +571,9 @@ font-family: Arial, Helvetica, sans-serif;
 
   background-color: transparent;
 }
-
+/* ==========================================================
+   RESOURCE COST
+   ========================================================== */
 .cost {
   color: #2ea043;
 
@@ -545,6 +583,10 @@ font-family: Arial, Helvetica, sans-serif;
 
   background-color: transparent;
 }
+
+/* ==========================================================
+   RESOURCE BUTTON
+   ========================================================== */
 
 .resource-button {
   display: inline-block;
