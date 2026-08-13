@@ -753,8 +753,8 @@ font-family: Arial, Helvetica, sans-serif;
    .supporting-skills{
     background-color:#0c111c;
     color:white;
-    align-items: center;
-
+    
+ max-width: 1000px;
 
    }
    .supporting-skills h1{
@@ -764,7 +764,23 @@ font-family: Arial, Helvetica, sans-serif;
    }
 
    .supporting-container{
-    display: flex;
+     max-width: 1000px;
+      margin: 0 auto;
+     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+     gap: 25px;
+     justify-items:center;
+   
+    
+   }
+
+   .supporting-card{
+    background-color: #1e293b;
+    padding:25px;
+    border-radius:10px;
+    border-left:4px solid #2ea043;
+    
+
    }
 /* ==========================================================
             Asra Fatma
