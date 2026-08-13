@@ -887,6 +887,13 @@ font-family: Arial, Helvetica, sans-serif;
     padding: 25px;
     border-radius: 10px;
     border-left: 4px solid #2ea043;
+    transition: all 0.3s ease;
+}
+
+.support-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    border-left-color: #3fb950;
 }
 
 .support-card h3 {
