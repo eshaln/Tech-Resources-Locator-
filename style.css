@@ -457,6 +457,42 @@ font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 30px;
 
 }
+
+.web-p1 {
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 25px;
+}
+
+.web-path {
+  background-color: #1e293b;
+
+  padding: 30px 25px;
+
+  border-radius: 12px;
+
+  border: 1px solid #263449;
+
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.web-path {
+  transform: translateY(-6px);
+
+  background-color: #243248;
+
+  border-color: #2ea043;
+}
+
 /* ==========================================================
    RESOURCE CARDS CONTAINER
    ========================================================== */
