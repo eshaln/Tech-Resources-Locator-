@@ -806,6 +806,11 @@ font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
       background-color: transparent;
    }
+
+   .resource-guide{
+    max-width: 1000px;
+    margin:0 auto;
+   }
 /* ==========================================================
             Asra Fatma
    ========================================================== */
