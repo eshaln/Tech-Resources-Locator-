@@ -754,6 +754,7 @@ font-family: Arial, Helvetica, sans-serif;
    .supporting-skills{
     background-color:#0c111c;
     color:white;
+    padding: 40px 20px;
     
 
 
@@ -761,7 +762,8 @@ font-family: Arial, Helvetica, sans-serif;
    .support-section h1{
     text-align: center;
     margin-bottom:22px;
-    margin-top:auto;
+    margin-top:40px;
+    font-size:40px;
    
    }
    .supporting-skills h2{
