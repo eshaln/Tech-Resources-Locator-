@@ -757,10 +757,12 @@ font-family: Arial, Helvetica, sans-serif;
     
 
 
-   }.supporting-skills h1{
+   }
+   .support-section h1{
     text-align: center;
     margin-bottom:22px;
-    margin-top :15px;
+    margin-top:auto;
+   
    }
    .supporting-skills h2{
     font-size:30px;
