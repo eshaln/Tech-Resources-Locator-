@@ -811,6 +811,14 @@ font-family: Arial, Helvetica, sans-serif;
     max-width: 1000px;
     margin:0 auto;
    }
+
+   .resource-guide details{
+    background-color: #1e293b;
+    border: 1px solid #263449;
+     border-radius: 8px;
+    margin-bottom: 12px;
+    padding: 18px 22px;
+   }
 /* ==========================================================
             Asra Fatma
    ========================================================== */
