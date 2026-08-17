@@ -842,6 +842,19 @@ footer {
 }
 
 /* Software Development Resources Section */
+.resources-section{
+   max-width: 1200px;
+  display: grid;
+  width: 90%;
+  margin: 40px auto;
+  align-items: center;
+  gap: 25px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+
 
 /* ==========================================================
             Asra Fatma
