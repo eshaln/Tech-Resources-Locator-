@@ -811,6 +811,14 @@ footer {
   
 }
 
+.software-path h1{
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: #f0f6fc;
+  background-color: transparent;
+  text-align: left;
+}
+
 
 
 /* ==========================================================
