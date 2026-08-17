@@ -835,6 +835,11 @@ footer {
  background-color: transparent;
  text-align: left;
 }
+.software-path:hover{
+  transform: translateY(-6px);
+  background-color: #243248;
+  border-color: #2ea043;
+}
 
 
 /* ==========================================================
