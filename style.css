@@ -842,6 +842,24 @@ footer {
 }
 
 /* Software Development Resources Section */
+
+.software-resources h1{
+  
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+}
+.software-resources p {
+  font-size: 19px;
+  color: #8b949e;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+
 .resources-section{
    max-width: 1200px;
   display: grid;
