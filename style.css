@@ -803,12 +803,12 @@ footer {
   margin: 0 auto 45px auto;
 }
 .software-p1{
-    
-  font-size: 22px;
-  margin-bottom: 12px;
-   color: #f0f6fc;
-  background-color: transparent;
-  text-align: left;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;  
+  
 }
 
 
