@@ -837,9 +837,12 @@ footer {
 }
 .software-path{
  background-color: #1e293b;
- padding: 30px 25px;
+ padding: 25px;
  border-radius: 12px;
  border: 1px solid #263449;
+ min-height: 230px;
+ display: flex;
+ flex-direction: column;
 
   transition:
     transform 0.3s ease,
@@ -849,15 +852,16 @@ footer {
 
 .software-path h1{
   font-size: 22px;
-  margin-bottom: 12px;
+  margin:12px 0;
+  min-height: 52px;
   color: #f0f6fc;
-  background-color: transparent;
   text-align: left;
 }
 .software-path p{
+  margin:0;
  color: #8b949e;
  font-size: 15px;
- background-color: transparent;
+
  text-align: left;
 }
 .software-path:hover{
