@@ -533,7 +533,7 @@ footer {
   color: #f0f6fc;
   border-radius: 12px;
   border: 2px solid #263449;
-  min-height: 250px;
+  min-height: 360px;
   display: flex;
   flex-direction: column;
   margin-bottom: 40px;
