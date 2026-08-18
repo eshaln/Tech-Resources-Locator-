@@ -871,6 +871,10 @@ footer {
 }
 
 /* Software Development Resources Section */
+.software-resources{
+  text-align: center;
+  padding:30px 20px 0;
+}
 
 .software-resources h1{
   
@@ -878,14 +882,14 @@ footer {
   font-weight: bold;
   text-align: center;
   color: white;
-  margin-top: 60px;
+  margin:0 0 10px 0;
 }
 .software-resources p {
   font-size: 19px;
   color: #8b949e;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
+ margin:0;
+ line-height: 1.5;
 }
 
 
@@ -893,7 +897,9 @@ footer {
    max-width: 1200px;
   display: grid;
   width: 90%;
-  margin: 40px auto;
+  margin: 15px auto 60px;
+  margin-top: 10px;
+  display: grid;
   align-items: center;
   gap: 25px;
   grid-template-columns: repeat(3, 1fr);
