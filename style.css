@@ -890,22 +890,16 @@ footer {
 }
 
 /* ==========================================================
-            Asra Fatma
+   ASRA FATMA — PLATFORMS & GAME DEV SECTION
    ========================================================== */
 
-.platforms-body {
-  font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #090d16;
-}
-
+/* HEADER & HERO */
 .platforms-header {
   text-align: center;
-  margin: 0px;
+  margin: 0;
   padding: 60px 20px 20px 10px;
   background: linear-gradient(135deg, #0f172a, #2ea043);
-  color: white;
+  color: #ffffff;
 }
 
 #platforms-title {
@@ -918,32 +912,98 @@ footer {
   margin-bottom: 20px;
 }
 
-.platforms-main {
+.hero-section {
+  background: linear-gradient(135deg, #0f172a, #1b4332, #2ea043);
+  color: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-label,
+#game-label {
+  display: inline-block;
+  padding: 6px 16px;
+  border: 1px solid #2ea043;
+  border-radius: 20px;
+  color: #2ea043;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  background-color: #090d16;
+  margin-bottom: 20px;
+}
+
+.hero-title,
+#game-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.hero-description,
+#game-description {
+  font-size: 18px;
+  color: #d1d5db;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* SECTION LAYOUTS & HEADINGS */
+.platforms-main,
+.platforms-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
 }
 
+.path {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #f0f6fc;
+}
+
+.section-heading {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #f0f6fc;
+}
+
+.section-description {
+  font-size: 17px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #d1d5db;
+}
+
+/* CARDS & INTERACTION */
 .platform-card {
   background-color: #1e293b;
-  color: white;
+  color: #ffffff;
+  width: 100%;
   max-width: 450px;
-  max-height: 400px;
   text-decoration: none;
   text-align: center;
   margin: 15px;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition:
-    transform 0.3s,
-    box-shadow 0.3s;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
 .platform-card:hover {
   background-color: #243248;
-  transition: transform 0.3s, box-shadow 0.3s, background-color 0.1s;
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
@@ -957,10 +1017,10 @@ footer {
   display: block;
   font-size: 24px;
   margin-bottom: 10px;
+  transition: transform 0.3s ease;
 }
 
 .platform-title:hover {
-  transition: transform 0.3s ease;
   transform: translateY(-3px);
 }
 
@@ -970,28 +1030,71 @@ footer {
   margin-bottom: 15px;
 }
 
-.platforms-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 .open-section {
   display: block;
   font-size: 14px;
   color: #2ea043;
-  font-weight: bold;
+  font-weight: 700;
+  text-decoration: none;
+  transition: letter-spacing 0.3s ease, text-decoration 0.3s ease;
 }
 
 .open-section:hover {
   letter-spacing: 0.5px;
   text-decoration: underline;
   cursor: pointer;
-  transition:
-    letter-spacing 0.3s,
-    text-decoration 0.3s;
 }
 
+/* LEARNING PATH GRID */
+.path-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.path-step {
+  background-color: #1e293b;
+  color: #ffffff;
+  padding: 30px 25px;
+  border-radius: 10px;
+  border: 1px solid #263449;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.path-step:hover {
+  background-color: #243248;
+  border-color: #2ea043;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.step-number {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: left;
+  margin-bottom: 10px;
+  color: #2ea043;
+}
+
+.step-title {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.step-description {
+  font-size: 14px;
+  text-align: left;
+  color: #d1d5db;
+  line-height: 1.5;
+}
+
+/* NAVIGATION INLINE OVERRIDES */
 #nav-heading {
   color: #f0f6fc;
 }
@@ -1002,7 +1105,6 @@ footer {
 
 .nav-menu {
   display: flex;
-
   gap: 30px;
 }
 
@@ -1012,153 +1114,7 @@ footer {
 }
 
 .nav-menu a:hover {
-  color: #2563eb;
-}
-
-/* HERO SECTION */
-.hero-section {
-  background: linear-gradient(135deg, #0f172a, #1b4332, #2ea043);
-  color: #ffffff;
-  padding: 80px 20px;
-  text-align: center;
-}
-
-.hero-content {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.hero-label {
-  display: inline-block;
-  padding: 6px 16px;
-  border: 1px solid #2ea043;
-  border-radius: 20px;
   color: #2ea043;
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 2px;
-  background-color: #090d16;
-  margin-bottom: 20px;
-}
-
-.hero-title {
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 20px;
-  color: #ffffff;
-}
-
-.hero-description {
-  font-size: 18px;
-  color: #d1d5db;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-#game-label {
-  display: inline-block;
-  padding: 6px 14px;
-  border: 1px solid #2ea043;
-  border-radius: 20px;
-  color: #2ea043;
-  font-size: 13px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  background-color: #090d16;
-  margin-bottom: 10px;
-}
-
-#game-title {
-  margin-top: 25px;
-  margin-bottom: 20px;
-  font-size: 48px;
-  line-height: 1.2;
-}
-
-#game-description {
-  max-width: 700px;
-  margin: 0 auto;
-  font-size: 19px;
-  color: #d1d5db;
-}
-
-.path {
-  margin-bottom: 20px;
-  text-align: center;
-  color: #f0f6fc;
-  font-family: "Poppins", sans-serif;
-  margin-top: 60px;
-}
-
-.section-heading {
-  font-size: 36px;
-  margin-bottom: 15px;
-  text-align: center;
-  color: #f0f6fc;
-}
-
-.section-description {
-  font-size: 17px;
-  margin-bottom: 40px;
-  text-align: center;
-  color: #d1d5db;
-}
-
-.path-grid {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
-}
-
-.path-step {
-  background-color: #1e293b;
-  color: white;
-  max-width: 370px;
-  padding: 30px 25px;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-
-.path-step:hover {
-  background-color: #243248;
-  transition:
-    transform 0.3s ease,
-    border-color 0.3s ease,
-    background-color 0.3s ease;
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-  margin-bottom: 10px;
-}
-
-.step-number {
-  display: block;
-  font-size: 14px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  text-align: left;
-  margin-left: 0;
-  margin-right: auto;
-  margin-bottom: 10px;
-  color: #2ea043;
-}
-
-.step-title {
-  font-size: 20px;
-  font-weight: bold;
-  text-align: left;
-  margin-left: 0;
-  margin-bottom: 12px;
-}
-
-.step-description {
-  margin-bottom: 5px;
-  font-size: 14px;
-  text-align: left;
-  margin-left: 0;
-  color: #d1d5db;
 }
 
 /* ==========================================================
