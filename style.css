@@ -1015,16 +1015,44 @@ footer {
   color: #2563eb;
 }
 
+/* HERO SECTION */
 .hero-section {
-  background: linear-gradient(135deg, #0f172a, #2ea043);
-  color: white;
-  padding: 60px 20px;
+  background: linear-gradient(135deg, #0f172a, #1b4332, #2ea043);
+  color: #ffffff;
+  padding: 80px 20px;
   text-align: center;
-  font-family: "Poppins", sans-serif;
 }
 
 .hero-content {
   max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-label {
+  display: inline-block;
+  padding: 6px 16px;
+  border: 1px solid #2ea043;
+  border-radius: 20px;
+  color: #2ea043;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  background-color: #090d16;
+  margin-bottom: 20px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.hero-description {
+  font-size: 18px;
+  color: #d1d5db;
+  max-width: 700px;
   margin: 0 auto;
 }
 
