@@ -1417,7 +1417,6 @@ nav {
   text-decoration: none;
   font-weight: 500;
   color: #f0f6fc;
-
   transition: color 0.3s ease;
 }
 
@@ -1431,57 +1430,42 @@ nav {
 
 .ai-hero {
   text-align: center;
-
   padding: 90px 20px;
-
   background: linear-gradient(135deg, #0f172a, #1b4332, #2ea043);
-
   color: white;
 }
 
 .hero-content {
   max-width: 900px;
   margin: 0 auto;
-
   background-color: transparent;
 }
 
 .hero-label {
   display: inline-block;
-
   padding: 6px 14px;
-
   border: 1px solid #2ea043;
   border-radius: 20px;
-
   color: #2ea043;
-
   font-size: 13px;
   font-weight: bold;
   letter-spacing: 2px;
-
   background-color: #090d16;
 }
 
 .ai-hero h1 {
   margin-top: 25px;
   margin-bottom: 20px;
-
   font-size: 48px;
   line-height: 1.2;
-
   background-color: transparent;
 }
 
 .ai-hero p {
   max-width: 700px;
-
   margin: 0 auto;
-
   font-size: 19px;
-
   color: #d1d5db;
-
   background-color: transparent;
 }
 
@@ -1498,27 +1482,18 @@ nav {
 
 .section-title {
   text-align: center;
-
   font-size: 36px;
-
   margin-bottom: 15px;
-
   color: #f0f6fc;
-
   background-color: transparent;
 }
 
 .section-description {
   max-width: 700px;
-
   margin: 0 auto 45px auto;
-
   text-align: center;
-
   color: #8b949e;
-
   font-size: 17px;
-
   background-color: transparent;
 }
 
@@ -1528,23 +1503,16 @@ nav {
 
 .path-grid {
   max-width: 1200px;
-
   margin: 0 auto;
-
   display: grid;
-
   grid-template-columns: repeat(4, 1fr);
-
   gap: 25px;
 }
 
 .path-card {
   background-color: #1e293b;
-
   padding: 30px 25px;
-
   border-radius: 12px;
-
   border: 1px solid #263449;
 
   transition:
@@ -1555,9 +1523,7 @@ nav {
 
 .path-card:hover {
   transform: translateY(-6px);
-
   background-color: #243248;
-
   border-color: #2ea043;
 }
 
