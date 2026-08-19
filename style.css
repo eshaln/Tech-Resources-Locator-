@@ -890,28 +890,44 @@ footer {
 }
 
 /* ==========================================================
-   ASRA FATMA — PLATFORMS & GAME DEV SECTION
+   NAVIGATION BAR
    ========================================================== */
-
-/* HEADER & HERO */
-.platforms-header {
-  text-align: center;
-  margin: 0;
-  padding: 60px 20px 20px 10px;
-  background: linear-gradient(135deg, #0f172a, #2ea043);
-  color: #ffffff;
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 75px;
+  background-color: #090d16;
+  border-bottom: 1px solid #1e293b;
 }
 
-#platforms-title {
-  font-size: 40px;
-  margin-bottom: 10px;
+#nav-heading {
+  color: #f0f6fc;
+  font-size: 22px;
+  font-weight: 700;
 }
 
-#platforms-description {
-  font-size: 18px;
-  margin-bottom: 20px;
+.nav-menu {
+  display: flex;
+  gap: 30px;
 }
 
+.nav-menu a {
+  color: #d1d5db;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+  color: #2ea043;
+}
+
+/* ==========================================================
+   HERO SECTION
+   ========================================================== */
 .hero-section {
   background: linear-gradient(135deg, #0f172a, #1b4332, #2ea043);
   color: #ffffff;
@@ -925,7 +941,8 @@ footer {
 }
 
 .hero-label,
-#game-label {
+#game-label,
+#db-label {
   display: inline-block;
   padding: 6px 16px;
   border: 1px solid #2ea043;
@@ -935,59 +952,257 @@ footer {
   font-weight: 700;
   letter-spacing: 2px;
   background-color: #090d16;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .hero-title,
-#game-title {
-  font-size: 48px;
+#game-title,
+#db-title {
+  font-size: 44px;
   font-weight: 700;
   line-height: 1.2;
-  margin-top: 25px;
+  margin-top: 15px;
   margin-bottom: 20px;
   color: #ffffff;
 }
 
 .hero-description,
-#game-description {
-  font-size: 18px;
+#game-description,
+#db-description {
+  font-size: 17px;
   color: #d1d5db;
   max-width: 700px;
   margin: 0 auto;
 }
 
-/* SECTION LAYOUTS & HEADINGS */
+/* ==========================================================
+   SECTIONS & HEADINGS
+   ========================================================== */
 .platforms-main,
-.platforms-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 20px;
+.platforms-section,
+.platform-section,
+.path,
+.resources,
+.support-section,
+.guide-section {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.path {
-  margin-top: 60px;
-  margin-bottom: 20px;
-  text-align: center;
-  color: #f0f6fc;
+.alt-bg {
+  background-color: #0d1322;
+  max-width: 100%;
 }
 
 .section-heading {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
   text-align: center;
   color: #f0f6fc;
 }
 
 .section-description {
-  font-size: 17px;
+  font-size: 16px;
   margin-bottom: 40px;
   text-align: center;
-  color: #d1d5db;
+  color: #94a3b8;
 }
 
-/* CARDS & INTERACTION */
+/* ==========================================================
+   LEARNING PATH GRID (STEP CARDS)
+   ========================================================== */
+.path-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.path-step,
+.path-card {
+  background-color: #1e293b;
+  color: #ffffff;
+  padding: 30px 25px;
+  border-radius: 10px;
+  border: 1px solid #263449;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.path-step:hover,
+.path-card:hover {
+  background-color: #243248;
+  border-color: #2ea043;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.step-number,
+.path-number {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: left;
+  margin-bottom: 10px;
+  color: #2ea043;
+}
+
+.step-title,
+.path-title {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.step-description,
+.path-desc {
+  font-size: 14px;
+  text-align: left;
+  color: #d1d5db;
+  line-height: 1.5;
+}
+
+/* ==========================================================
+   FEATURED RESOURCE CARDS
+   ========================================================== */
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+}
+
+.resource-card {
+  background-color: #1e293b;
+  border-radius: 10px;
+  padding: 25px;
+  border: 1px solid #263449;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resource-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.resource-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.resource-type {
+  color: #2ea043;
+  letter-spacing: 1px;
+}
+
+.resource-level {
+  color: #94a3b8;
+  background-color: #090d16;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.resource-card h3 {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.resource-card p {
+  font-size: 14px;
+  color: #d1d5db;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.resource-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 25px;
+}
+
+.resource-tags span {
+  background-color: #090d16;
+  color: #38bdf8;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 15px;
+  border: 1px solid #1e293b;
+}
+
+.resource-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #263449;
+  padding-top: 15px;
+  margin-top: auto;
+}
+
+.cost {
+  color: #2ea043;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.resource-button {
+  color: #ffffff;
+  background-color: #2ea043;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.resource-button:hover {
+  background-color: #238636;
+}
+
+/* ==========================================================
+   SUPPORTING SKILLS CARDS
+   ========================================================== */
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.support-card {
+  background-color: #1e293b;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid #263449;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.support-card h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+.support-card p {
+  font-size: 14px;
+  color: #d1d5db;
+  margin-bottom: 20px;
+}
+
+/* ==========================================================
+   PLATFORM CARDS & OPEN BUTTONS
+   ========================================================== */
 .platform-card {
   background-color: #1e293b;
   color: #ffffff;
@@ -1031,12 +1246,12 @@ footer {
 }
 
 .open-section {
-  display: block;
+  display: inline-block;
   font-size: 14px;
   color: #2ea043;
   font-weight: 700;
   text-decoration: none;
-  transition: letter-spacing 0.3s ease, text-decoration 0.3s ease;
+  transition: letter-spacing 0.3s ease;
 }
 
 .open-section:hover {
@@ -1045,76 +1260,50 @@ footer {
   cursor: pointer;
 }
 
-/* LEARNING PATH GRID */
-.path-grid {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 25px;
-}
-
-.path-step {
+/* ==========================================================
+   ACCORDION (FAQ SECTION)
+   ========================================================== */
+details {
   background-color: #1e293b;
-  color: #ffffff;
-  padding: 30px 25px;
-  border-radius: 10px;
   border: 1px solid #263449;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  transition: background-color 0.3s ease;
 }
 
-.path-step:hover {
+details[open] {
   background-color: #243248;
-  border-color: #2ea043;
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-.step-number {
-  display: block;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 2px;
-  text-align: left;
-  margin-bottom: 10px;
-  color: #2ea043;
-}
-
-.step-title {
-  font-size: 20px;
-  font-weight: 700;
-  text-align: left;
-  margin-bottom: 12px;
-}
-
-.step-description {
-  font-size: 14px;
-  text-align: left;
-  color: #d1d5db;
-  line-height: 1.5;
-}
-
-/* NAVIGATION INLINE OVERRIDES */
-#nav-heading {
+summary {
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
   color: #f0f6fc;
 }
 
-.nav-bar {
-  height: 75px;
-}
-
-.nav-menu {
-  display: flex;
-  gap: 30px;
-}
-
-.nav-menu a {
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.nav-menu a:hover {
+summary:hover {
   color: #2ea043;
+}
+
+details p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #d1d5db;
+  line-height: 1.6;
+}
+
+/* ==========================================================
+   FOOTER
+   ========================================================== */
+.home-footer {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #090d16;
+  border-top: 1px solid #1e293b;
+  color: #94a3b8;
+  font-size: 14px;
 }
 
 /* ==========================================================
