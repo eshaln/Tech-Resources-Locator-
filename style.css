@@ -890,6 +890,10 @@ footer {
 }
 
 /* ==========================================================
+  ASRA FATMA
+   ========================================================== */
+
+/* ==========================================================
   NAVIGATION BAR
    ========================================================== */
 .nav-bar {
@@ -1238,13 +1242,12 @@ footer {
    ========================================================== */
 .platforms-main {
   padding: 60px 20px 80px 20px;
-  max-width: 1400px; /* Expanded for broader cards */
+  max-width: 1400px;
   margin: 0 auto;
 }
 
 .platforms-grid {
   display: grid;
-  /* Increased minimum card width to 380px for extra breathing room */
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   gap: 30px;
   width: 100%;
