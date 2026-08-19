@@ -40,7 +40,7 @@
       <div class="contact-container">
         <div class="contact-form">
          
-            <form action="https://formspree.io/f/xgawpjzv" method="post">
+            <form action="https://formspree.io/f/xgawpjzv" method="POST" id="contact-form">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required />
 
@@ -54,6 +54,7 @@
             <textarea id="message" name="message" rows="5" required></textarea>
 
             <button type="submit">Submit</button>
+            <p id="form-message"></p>
           </form>
         </div>
         <div class="contact-right">
@@ -102,6 +103,6 @@
         </p>
    </footer>
 
-
+<script src="contact.js"></script>
   </body>
 </html>
