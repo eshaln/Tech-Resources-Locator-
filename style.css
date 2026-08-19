@@ -1203,7 +1203,7 @@ footer {
 }
 
 /* ==========================================================
-   PLATFORMS HEADER (GRADIENT HERO)
+  PLATFORMS HEADER (GRADIENT HERO)
    ========================================================== */
 .platforms-header {
   background: linear-gradient(135deg, #0f172a, #1b4332, #2ea043);
@@ -1233,7 +1233,7 @@ footer {
 }
 
 /* ==========================================================
-   PLATFORMS MAIN CONTAINER & WIDER CARDS GRID
+  PLATFORMS MAIN CONTAINER & WIDER CARDS GRID
    ========================================================== */
 .platforms-main {
   padding: 60px 20px 80px 20px;
@@ -1249,7 +1249,7 @@ footer {
 }
 
 /* ==========================================================
-   PLATFORM CARD STYLING
+  PLATFORM CARD STYLING
    ========================================================== */
 .platform-card {
   background-color: #1e293b;
