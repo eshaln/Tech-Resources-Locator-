@@ -1,6 +1,5 @@
 /* ==========================================================
-   TECH RESOURCE LOCATOR
-   Author: Eshal Naeem
+   Eshal Naeem
    ========================================================== */
 * {
   margin: 0;
@@ -47,21 +46,21 @@ body {
   font-size: 25px;
   text-align: center;
   font-weight: bold;
-  font-family: "Poppins", sans-serif;
+
   color: #2ea043;
 }
 .about-card h2 {
   font-size: 50px;
   text-align: center;
   font-weight: bold;
-  font-family: "Poppins", sans-serif;
+
   color: #f0f6fc;
 }
 
 .about-card p {
   text-align: center;
   font-size: 20px;
-  font-family: "Poppins", sans-serif;
+
   color: #f0f6fc;
 }
 .about-card {
@@ -110,19 +109,19 @@ body {
   font-size: 25px;
   text-align: center;
   font-weight: bold;
-  font-family: "Poppins", sans-serif;
+
   color: #f0f6fc;
 }
 .team-member h3 {
   font-size: 20px;
   text-align: center;
   font-weight: bold;
-  font-family: "Poppins", sans-serif;
+
   color: #2ea043;
 }
 .team-member p {
   text-align: center;
-  font-family: "Poppins", sans-serif;
+
   color: #f0f6fc;
 }
 .profile-icon {
@@ -146,7 +145,6 @@ body {
   text-align: center;
   flex-direction: row;
   font-weight: bold;
-  font-family: "Poppins", sans-serif;
 
   color: #f0f6fc;
 }
@@ -156,7 +154,6 @@ body {
   align-items: center;
   margin-bottom: 30px;
   color: #2ea043;
-  font-family: "Poppins", sans-serif;
 }
 
 .icon i {
@@ -184,7 +181,6 @@ body {
   color: white;
   padding: 60px 20px;
   text-align: center;
-  font-family: "Poppins", sans-serif;
 }
 .about-hero h1 {
   font-size: 48px;
@@ -203,10 +199,8 @@ body {
   color: white;
   padding: 60px 20px;
   text-align: center;
-  font-family: "Poppins", sans-serif;
 }
 .contact-hero h1 {
-  font-family: "Poppins", sans-serif;
   font-size: 36px;
   font-weight: bold;
   color: #f0f6fc;
@@ -214,7 +208,6 @@ body {
   margin-bottom: 10px;
 }
 .contact-hero p {
-  font-family: "Poppins", sans-serif;
   font-size: 22px;
   color: #f0f6fc;
   text-align: center;
@@ -231,7 +224,6 @@ body {
   background-color: #090d16;
 
   color: #2ea043;
-  font-family: "Poppins", sans-serif;
 
   font-weight: bold;
 }
@@ -259,7 +251,6 @@ body {
 }
 
 .contact-form label {
-  font-family: "Poppins", sans-serif;
   font-weight: bold;
   color: #2ea043;
   text-transform: uppercase;
@@ -279,7 +270,7 @@ body {
   padding: 20px;
   border-radius: 5px;
   color: #2ea043;
-  font-family: "Poppins", sans-serif;
+
   font-weight: bold;
   text-transform: uppercase;
   border: 2px solid #ccc;
@@ -313,12 +304,11 @@ body {
   font-size: 24px;
   margin-bottom: 10px;
   text-align: center;
-  font-family: "Poppins", sans-serif;
 }
 .contact-info p {
   font-size: 16px;
   text-align: left;
-  font-family: "Poppins", sans-serif;
+
   color: #e3b341;
 }
 .info-item {
@@ -333,7 +323,7 @@ body {
 }
 .info-item p {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+
   font-size: 18px;
 }
 .info-item span {
@@ -349,19 +339,19 @@ body {
   background-color: #1e293b;
   text-align: center;
   border-radius: 20px;
-  font-family: "Poppins", sans-serif;
+
   color: #f0f6fc;
   padding: 25px;
   box-sizing: border-box;
 }
 .faq-item p {
   text-align: left;
-  font-family: "Poppins", sans-serif;
+
   color: #8b949e;
 }
 details {
   text-align: left;
-  font-family: "Poppins", sans-serif;
+
   font-size: 20px;
   color: white;
 }
@@ -378,13 +368,23 @@ footer {
 /* ==========================================================
    WEB DEVELOPMENT SECTION
    ========================================================== */
-
+#web-label {
+  display: inline-block;
+  padding: 6px 14px;
+  border: 1px solid #2ea043;
+  border-radius: 20px;
+  color: #2ea043;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background-color: #090d16;
+  margin-bottom: 10px;
+}
 .web-container {
   background: linear-gradient(135deg, #0f172a, #2ea043);
   color: white;
   padding: 60px 20px;
   text-align: center;
-  font-family: "Poppins", sans-serif;
 }
 
 .web-container h2 {
@@ -480,7 +480,7 @@ footer {
 .path-number {
   display: block;
 
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 
   color: #2ea043;
 
@@ -595,12 +595,13 @@ footer {
 
 .resource-cards h1 {
   text-align: left;
-  font-size: 28px;
+  font-size: 22px;
   margin-bottom: 15px;
+  line-height: 1.3;
 }
 .resource-cards p {
   text-align: left;
-  font-size: 18px;
+  font-size: 15px;
   color: #8b949e;
   margin-bottom: 20px;
 }
@@ -695,12 +696,11 @@ footer {
 .supporting-skills {
   background-color: #0c111c;
   color: white;
-  padding: 40px 20px;
 }
 .support-section h1 {
   text-align: center;
-  margin-bottom: 22px;
-  margin-top: 40px;
+
+  margin-top: 10px;
   font-size: 40px;
 }
 .supporting-skills h2 {
@@ -767,6 +767,128 @@ footer {
   margin-top: 15px;
   color: #8b949e;
 }
+/* ==========================================================
+           Software Development Section
+   ========================================================== */
+
+.software-container {
+  background: linear-gradient(135deg, #0f172a, #2ea043);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+.software-container h2 {
+  font-size: 42px;
+}
+
+.software-container p {
+  font-size: 18px;
+}
+
+/* Software Development Learning path */
+
+#software-label {
+  display: inline-block;
+  padding: 6px 14px;
+  border: 1px solid #2ea043;
+  border-radius: 20px;
+  color: #2ea043;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background-color: #090d16;
+  margin-bottom: 10px;
+}
+
+.software-learning h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+.software-learning p {
+  font-size: 19px;
+  color: #8b949e;
+  text-align: center;
+  margin: 0 auto 45px auto;
+}
+.software-p1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+.software-path {
+  background-color: #1e293b;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #263449;
+  min-height: 230px;
+  display: flex;
+  flex-direction: column;
+
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.software-path h1 {
+  font-size: 22px;
+  margin: 12px 0;
+  min-height: 52px;
+  color: #f0f6fc;
+  text-align: left;
+}
+.software-path p {
+  margin: 0;
+  color: #8b949e;
+  font-size: 15px;
+
+  text-align: left;
+}
+.software-path:hover {
+  transform: translateY(-6px);
+  background-color: #243248;
+  border-color: #2ea043;
+}
+
+/* Software Development Resources Section */
+.software-resources {
+  text-align: center;
+  padding: 30px 20px 0;
+}
+
+.software-resources h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  margin: 0 0 10px 0;
+}
+.software-resources p {
+  font-size: 19px;
+  color: #8b949e;
+  text-align: center;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.resources-section {
+  max-width: 1200px;
+  display: grid;
+  width: 90%;
+  margin: 15px auto 60px;
+  margin-top: 10px;
+  display: grid;
+  align-items: center;
+  gap: 25px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 /* ==========================================================
             Asra Fatma
    ========================================================== */
@@ -1019,7 +1141,6 @@ footer {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #f0f6fc;
 }
 
 body {
