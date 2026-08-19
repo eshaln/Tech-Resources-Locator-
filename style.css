@@ -1022,6 +1022,8 @@ footer {
 
 .path-step,
 .path-card {
+  flex: 0 1 calc(33.333% - 18px); 
+  min-width: 280px;
   background-color: #1e293b;
   color: #ffffff;
   padding: 30px 25px;
