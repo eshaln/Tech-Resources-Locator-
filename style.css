@@ -1204,38 +1204,49 @@ footer {
 }
 
 /* ==========================================================
-   PLATFORMS PAGE HEADER & CONTAINER
+   PLATFORMS HEADER (GRADIENT HERO)
    ========================================================== */
 .platforms-header {
-  padding: 60px 20px 20px 20px;
+  background: linear-gradient(135deg, #0f172a, #1b4332, #2ea043);
+  color: #ffffff;
+  padding: 80px 20px;
   text-align: center;
-  max-width: 900px;
+  border-bottom: 1px solid #1e293b;
+}
+
+.platforms-header-content {
+  max-width: 800px;
   margin: 0 auto;
 }
 
 #platforms-title {
-  font-size: 38px;
+  font-size: 44px;
   font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 18px;
   color: #ffffff;
-  margin-bottom: 12px;
 }
 
 #platforms-description {
-  font-size: 16px;
-  color: #94a3b8;
+  font-size: 17px;
+  color: #d1d5db;
   line-height: 1.6;
 }
 
+/* ==========================================================
+   PLATFORMS MAIN CONTAINER & WIDER CARDS GRID
+   ========================================================== */
 .platforms-main {
-  padding: 40px 20px 80px 20px;
-  max-width: 1200px;
+  padding: 60px 20px 80px 20px;
+  max-width: 1400px; /* Expanded for broader cards */
   margin: 0 auto;
 }
 
 .platforms-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 25px;
+  /* Increased minimum card width to 380px for extra breathing room */
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 30px;
   width: 100%;
 }
 
@@ -1247,41 +1258,41 @@ footer {
   color: #ffffff;
   text-decoration: none;
   text-align: center;
-  padding: 30px 25px;
+  padding: 35px 30px;
   border-radius: 10px;
   border: 1px solid #263449;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .platform-card:hover {
   background-color: #243248;
   border-color: #2ea043;
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
 }
 
 .platform-icon {
-  font-size: 48px;
+  font-size: 52px;
   margin-bottom: 15px;
 }
 
 .platform-title {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
   color: #ffffff;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .platform-description {
-  font-size: 14px;
+  font-size: 15px;
   color: #d1d5db;
-  line-height: 1.5;
-  margin-bottom: 20px;
+  line-height: 1.6;
+  margin-bottom: 25px;
 }
 
 .open-section {
@@ -1291,7 +1302,7 @@ footer {
   font-weight: 700;
   text-decoration: none;
   width: 100%;
-  padding-top: 15px;
+  padding-top: 18px;
   border-top: 1px solid #263449;
   transition: color 0.3s ease, letter-spacing 0.3s ease;
 }
