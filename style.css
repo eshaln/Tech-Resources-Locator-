@@ -1011,11 +1011,12 @@ footer {
 }
 
 /* ==========================================================
-   LEARNING PATH GRID (STEP CARDS)
+  LEARNING PATH GRID (STEP CARDS)
    ========================================================== */
 .path-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 25px;
 }
 
@@ -1065,7 +1066,7 @@ footer {
 }
 
 /* ==========================================================
-   FEATURED RESOURCE CARDS
+  FEATURED RESOURCE CARDS
    ========================================================== */
 .resource-grid {
   display: grid;
@@ -1170,7 +1171,7 @@ footer {
 }
 
 /* ==========================================================
-   SUPPORTING SKILLS CARDS
+  SUPPORTING SKILLS CARDS
    ========================================================== */
 .support-grid {
   display: grid;
@@ -1201,7 +1202,7 @@ footer {
 }
 
 /* ==========================================================
-   PLATFORM CARDS & OPEN BUTTONS
+  PLATFORM CARDS & OPEN BUTTONS
    ========================================================== */
 .platform-card {
   background-color: #1e293b;
@@ -1261,7 +1262,7 @@ footer {
 }
 
 /* ==========================================================
-   ACCORDION (FAQ SECTION)
+  FAQ SECTION
    ========================================================== */
 details {
   background-color: #1e293b;
