@@ -796,27 +796,6 @@ footer {
   margin-bottom: 20px;
 }
 
-.back-link {
-  display: inline-block;
-  position: absolute;
-  top: 100px;
-  left: 40px;
-  margin-top: 0.5px;
-  padding: 10px 20px;
-  position: absolute;
-  background-color: #2ea043;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  font-size: 14px;
-}
-
-.back-link:hover {
-  background-color: #237732;
-  transition: background-color 0.3s;
-}
-
 .platforms-main {
   display: flex;
   flex-wrap: wrap;
@@ -842,9 +821,7 @@ footer {
 
 .platform-card:hover {
   background-color: #243248;
-  transition:
-    transform 0.3s,
-    box-shadow 0.3s background-color 0.1s;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.1s;
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
