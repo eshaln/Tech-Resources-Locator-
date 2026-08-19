@@ -1302,13 +1302,16 @@ footer {
   width: 100%;
   padding-top: 18px;
   border-top: 1px solid #263449;
+  letter-spacing: normal;
   transition: color 0.3s ease, letter-spacing 0.3s ease;
 }
 
-.platform-card:hover .open-section {
+.platform-card:hover .open-section,
+.support-card:hover .open-section {
   color: #3fb950;
   letter-spacing: 0.5px;
 }
+
 
 /* ==========================================================
   FAQ SECTION
