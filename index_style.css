@@ -12,17 +12,13 @@ body {
 
 nav {
   display: flex;
-
   justify-content: space-between;
-
   align-items: center;
-
   padding: 20px 80px;
 }
 
 .nav-menu {
   display: flex;
-
   gap: 30px;
 }
 

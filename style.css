@@ -46,7 +46,7 @@ body {
   font-size: 25px;
   text-align: center;
   font-weight: bold;
-  
+
   color: #2ea043;
 }
 .about-card h2 {
@@ -60,7 +60,7 @@ body {
 .about-card p {
   text-align: center;
   font-size: 20px;
- 
+
   color: #f0f6fc;
 }
 .about-card {
@@ -109,14 +109,14 @@ body {
   font-size: 25px;
   text-align: center;
   font-weight: bold;
-  
+
   color: #f0f6fc;
 }
 .team-member h3 {
   font-size: 20px;
   text-align: center;
   font-weight: bold;
-  
+
   color: #2ea043;
 }
 .team-member p {
@@ -145,7 +145,6 @@ body {
   text-align: center;
   flex-direction: row;
   font-weight: bold;
- 
 
   color: #f0f6fc;
 }
@@ -155,7 +154,6 @@ body {
   align-items: center;
   margin-bottom: 30px;
   color: #2ea043;
-  
 }
 
 .icon i {
@@ -183,7 +181,6 @@ body {
   color: white;
   padding: 60px 20px;
   text-align: center;
-  
 }
 .about-hero h1 {
   font-size: 48px;
@@ -202,10 +199,8 @@ body {
   color: white;
   padding: 60px 20px;
   text-align: center;
-  
 }
 .contact-hero h1 {
-  
   font-size: 36px;
   font-weight: bold;
   color: #f0f6fc;
@@ -213,7 +208,6 @@ body {
   margin-bottom: 10px;
 }
 .contact-hero p {
-  
   font-size: 22px;
   color: #f0f6fc;
   text-align: center;
@@ -230,7 +224,6 @@ body {
   background-color: #090d16;
 
   color: #2ea043;
-  
 
   font-weight: bold;
 }
@@ -258,7 +251,6 @@ body {
 }
 
 .contact-form label {
-
   font-weight: bold;
   color: #2ea043;
   text-transform: uppercase;
@@ -279,7 +271,7 @@ body {
   padding: 20px;
   border-radius: 5px;
   color: #2ea043;
-  
+
   font-weight: bold;
   text-transform: uppercase;
   border: 2px solid #ccc;
@@ -313,12 +305,11 @@ body {
   font-size: 24px;
   margin-bottom: 10px;
   text-align: center;
-  
 }
 .contact-info p {
   font-size: 16px;
   text-align: left;
- 
+
   color: #e3b341;
 }
 .info-item {
@@ -349,19 +340,19 @@ body {
   background-color: #1e293b;
   text-align: center;
   border-radius: 20px;
- 
+
   color: #f0f6fc;
   padding: 25px;
   box-sizing: border-box;
 }
 .faq-item p {
   text-align: left;
-  
+
   color: #8b949e;
 }
 details {
   text-align: left;
-  
+
   font-size: 20px;
   color: white;
 }
@@ -378,7 +369,7 @@ footer {
 /* ==========================================================
    WEB DEVELOPMENT SECTION
    ========================================================== */
-#web-label{
+#web-label {
   display: inline-block;
   padding: 6px 14px;
   border: 1px solid #2ea043;
@@ -395,7 +386,6 @@ footer {
   color: white;
   padding: 60px 20px;
   text-align: center;
-  
 }
 
 .web-container h2 {
@@ -707,11 +697,10 @@ footer {
 .supporting-skills {
   background-color: #0c111c;
   color: white;
- 
 }
 .support-section h1 {
   text-align: center;
-  
+
   margin-top: 10px;
   font-size: 40px;
 }
@@ -783,26 +772,24 @@ footer {
            Software Development Section
    ========================================================== */
 
-   .software-container{
+.software-container {
   background: linear-gradient(135deg, #0f172a, #2ea043);
   color: white;
   padding: 60px 20px;
   text-align: center;
+}
+.software-container h2 {
+  font-size: 42px;
+}
 
-   }
-   .software-container h2{
-    font-size:42px;
-   }
-
-.software-container p{
-    font-size: 18px;
-
+.software-container p {
+  font-size: 18px;
 }
 
 /* Software Development Learning path */
 
-#software-label{
-    display: inline-block;
+#software-label {
+  display: inline-block;
   padding: 6px 14px;
   border: 1px solid #2ea043;
   border-radius: 20px;
@@ -814,7 +801,7 @@ footer {
   margin-bottom: 10px;
 }
 
-.software-learning h1{
+.software-learning h1 {
   font-size: 40px;
   font-weight: bold;
   text-align: center;
@@ -822,25 +809,27 @@ footer {
   margin-top: 40px;
   margin-bottom: 15px;
 }
-.software-learning p{
+.software-learning p {
   font-size: 19px;
   color: #8b949e;
   text-align: center;
   margin: 0 auto 45px auto;
 }
-.software-p1{
+.software-p1 {
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 25px;  
-  
+  gap: 25px;
 }
-.software-path{
- background-color: #1e293b;
- padding: 30px 25px;
- border-radius: 12px;
- border: 1px solid #263449;
+.software-path {
+  background-color: #1e293b;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #263449;
+  min-height: 230px;
+  display: flex;
+  flex-direction: column;
 
   transition:
     transform 0.3s ease,
@@ -848,213 +837,107 @@ footer {
     background-color 0.3s ease;
 }
 
-.software-path h1{
+.software-path h1 {
   font-size: 22px;
-  margin-bottom: 12px;
+  margin: 12px 0;
+  min-height: 52px;
   color: #f0f6fc;
-  background-color: transparent;
   text-align: left;
 }
-.software-path p{
- color: #8b949e;
- font-size: 15px;
- background-color: transparent;
- text-align: left;
+.software-path p {
+  margin: 0;
+  color: #8b949e;
+  font-size: 15px;
+
+  text-align: left;
 }
-.software-path:hover{
+.software-path:hover {
   transform: translateY(-6px);
   background-color: #243248;
   border-color: #2ea043;
 }
 
 /* Software Development Resources Section */
+.software-resources {
+  text-align: center;
+  padding: 30px 20px 0;
+}
 
-.software-resources h1{
-  
+.software-resources h1 {
   font-size: 40px;
   font-weight: bold;
   text-align: center;
   color: white;
-  margin-top: 60px;
+  margin: 0 0 10px 0;
 }
 .software-resources p {
   font-size: 19px;
   color: #8b949e;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 0;
+  line-height: 1.5;
 }
 
-
-.resources-section{
-   max-width: 1200px;
+.resources-section {
+  max-width: 1200px;
   display: grid;
   width: 90%;
-  margin: 40px auto;
+  margin: 15px auto 60px;
+  margin-top: 10px;
+  display: grid;
   align-items: center;
   gap: 25px;
   grid-template-columns: repeat(3, 1fr);
 }
 
-
-
-
-
 /* ==========================================================
-            Asra Fatma
+  ASRA FATMA
    ========================================================== */
 
-.platforms-body {
-  font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 0;
+/* ==========================================================
+  NAVIGATION BAR
+   ========================================================== */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 75px;
   background-color: #090d16;
-}
-
-.platforms-header {
-  text-align: center;
-  margin: 0px;
-  padding: 60px 20px 20px 10px;
-  background: linear-gradient(135deg, #0f172a, #2ea043);
-  color: white;
-}
-
-#platforms-title {
-  font-size: 40px;
-  margin-bottom: 10px;
-}
-
-#platforms-description {
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-
-.back-link {
-  display: inline-block;
-  position: absolute;
-  top: 100px;
-  left: 40px;
-  margin-top: 0.5px;
-  padding: 10px 20px;
-  position: absolute;
-  background-color: #2ea043;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  font-size: 14px;
-}
-
-.back-link:hover {
-  background-color: #237732;
-  transition: background-color 0.3s;
-}
-
-.platforms-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 20px;
-}
-
-.platform-card {
-  background-color: #1e293b;
-  color: white;
-  max-width: 450px;
-  max-height: 400px;
-  text-decoration: none;
-  text-align: center;
-  margin: 15px;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition:
-    transform 0.3s,
-    box-shadow 0.3s;
-}
-
-.platform-card:hover {
-  background-color: #243248;
-  transition:
-    transform 0.3s,
-    box-shadow 0.3s background-color 0.1s;
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-}
-
-.platform-icon {
-  font-size: 50px;
-  margin-bottom: 15px;
-}
-
-.platform-title {
-  display: block;
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.platform-title:hover {
-  transition: transform 0.3s ease;
-  transform: translateY(-3px);
-}
-
-.platform-description {
-  display: block;
-  font-size: 13px;
-  margin-bottom: 15px;
-}
-
-.platforms-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.open-section {
-  display: block;
-  font-size: 14px;
-  color: #2ea043;
-  font-weight: bold;
-}
-
-.open-section:hover {
-  letter-spacing: 0.5px;
-  text-decoration: underline;
-  cursor: pointer;
-  transition:
-    letter-spacing 0.3s,
-    text-decoration 0.3s;
+  border-bottom: 1px solid #1e293b;
 }
 
 #nav-heading {
   color: #f0f6fc;
-}
-
-.nav-bar {
-  height: 75px;
+  font-size: 22px;
+  font-weight: 700;
 }
 
 .nav-menu {
   display: flex;
-
   gap: 30px;
 }
 
 .nav-menu a {
+  color: #d1d5db;
   text-decoration: none;
   font-weight: 500;
+  font-size: 15px;
+  transition: color 0.3s ease;
 }
 
 .nav-menu a:hover {
-  color: #2563eb;
+  color: #2ea043;
 }
 
+/* ==========================================================
+  HERO SECTION
+   ========================================================== */
 .hero-section {
-  background: linear-gradient(135deg, #0f172a, #2ea043);
-  color: white;
-  padding: 60px 20px;
+  background: linear-gradient(135deg, #0f172a, #1b4332, #2ea043);
+  color: #ffffff;
+  padding: 80px 20px;
   text-align: center;
-  font-family: "Poppins", sans-serif;
 }
 
 .hero-content {
@@ -1062,109 +945,430 @@ footer {
   margin: 0 auto;
 }
 
-#game-label {
+.hero-label,
+#game-label,
+#db-label {
   display: inline-block;
-  padding: 6px 14px;
+  padding: 6px 16px;
   border: 1px solid #2ea043;
   border-radius: 20px;
   color: #2ea043;
   font-size: 13px;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: 2px;
   background-color: #090d16;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
-#game-title {
-  margin-top: 25px;
-  margin-bottom: 20px;
-  font-size: 48px;
+.hero-title,
+#game-title,
+#db-title {
+  font-size: 44px;
+  font-weight: 700;
   line-height: 1.2;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: #ffffff;
 }
 
-#game-description {
+.hero-description,
+#game-description,
+#db-description {
+  font-size: 17px;
+  color: #d1d5db;
   max-width: 700px;
   margin: 0 auto;
-  font-size: 19px;
-  color: #d1d5db;
 }
 
-.path {
-  margin-bottom: 20px;
-  text-align: center;
-  color: #f0f6fc;
-  font-family: "Poppins", sans-serif;
-  margin-top: 60px;
+/* ==========================================================
+  SECTIONS & HEADINGS
+   ========================================================== */
+.platforms-main,
+.platforms-section,
+.platform-section,
+.path,
+.resources,
+.support-section,
+.guide-section {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .section-heading {
-  font-size: 36px;
-  margin-bottom: 15px;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
   text-align: center;
   color: #f0f6fc;
 }
 
 .section-description {
-  font-size: 17px;
+  font-size: 16px;
   margin-bottom: 40px;
   text-align: center;
-  color: #d1d5db;
+  color: #94a3b8;
 }
 
+/* ==========================================================
+  LEARNING PATH GRID (STEP CARDS)
+   ========================================================== */
 .path-grid {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 25px;
 }
 
-.path-step {
+.path-step,
+.path-card {
+  flex: 0 1 calc(33.333% - 18px);
+  min-width: 280px;
   background-color: #1e293b;
-  color: white;
-  max-width: 370px;
+  color: #ffffff;
   padding: 30px 25px;
   border-radius: 10px;
-  margin-bottom: 10px;
-}
-
-.path-step:hover {
-  background-color: #243248;
+  border: 1px solid #263449;
   transition:
     transform 0.3s ease,
-    border-color 0.3s ease,
-    background-color 0.3s ease;
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-  margin-bottom: 10px;
+    box-shadow 0.3s ease,
+    background-color 0.3s ease,
+    border-color 0.3s ease;
 }
 
-.step-number {
+.path-step:hover,
+.path-card:hover {
+  background-color: #243248;
+  border-color: #2ea043;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.step-number,
+.path-number {
   display: block;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: 2px;
   text-align: left;
-  margin-left: 0;
-  margin-right: auto;
   margin-bottom: 10px;
   color: #2ea043;
 }
 
-.step-title {
+.step-title,
+.path-title {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
   text-align: left;
-  margin-left: 0;
   margin-bottom: 12px;
 }
 
-.step-description {
-  margin-bottom: 5px;
+.step-description,
+.path-desc {
   font-size: 14px;
   text-align: left;
-  margin-left: 0;
   color: #d1d5db;
+  line-height: 1.5;
+}
+
+/* ==========================================================
+  FEATURED RESOURCE CARDS
+   ========================================================== */
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+}
+
+.resource-card {
+  background-color: #1e293b;
+  border-radius: 10px;
+  padding: 25px;
+  border: 1px solid #263449;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.resource-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.resource-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.resource-type {
+  color: #2ea043;
+  letter-spacing: 1px;
+}
+
+.resource-level {
+  color: #94a3b8;
+  background-color: #090d16;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.resource-card h3 {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.resource-card p {
+  font-size: 14px;
+  color: #d1d5db;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.resource-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 25px;
+}
+
+.resource-tags span {
+  background-color: #090d16;
+  color: #38bdf8;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 15px;
+  border: 1px solid #1e293b;
+}
+
+.resource-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #263449;
+  padding-top: 15px;
+  margin-top: auto;
+}
+
+.cost {
+  color: #2ea043;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.resource-button {
+  color: #ffffff;
+  background-color: #2ea043;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.resource-button:hover {
+  background-color: #238636;
+}
+
+/* ==========================================================
+  SUPPORTING SKILLS CARDS
+   ========================================================== */
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.support-card {
+  background-color: #1e293b;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid #263449;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.support-card h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+.support-card p {
+  font-size: 14px;
+  color: #d1d5db;
+  margin-bottom: 20px;
+}
+
+/* ==========================================================
+  PLATFORMS HEADER (GRADIENT HERO)
+   ========================================================== */
+.platforms-header {
+  background: linear-gradient(135deg, #0f172a, #1b4332, #2ea043);
+  color: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+  border-bottom: 1px solid #1e293b;
+}
+
+.platforms-header-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#platforms-title {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 18px;
+  color: #ffffff;
+}
+
+#platforms-description {
+  font-size: 17px;
+  color: #d1d5db;
+  line-height: 1.6;
+}
+
+/* ==========================================================
+  PLATFORMS MAIN CONTAINER & WIDER CARDS GRID
+   ========================================================== */
+.platforms-main {
+  padding: 60px 20px 80px 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.platforms-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 30px;
+  width: 100%;
+}
+
+/* ==========================================================
+  PLATFORM CARD STYLING
+   ========================================================== */
+.platform-card {
+  background-color: #1e293b;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  padding: 35px 30px;
+  border-radius: 10px;
+  border: 1px solid #263449;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background-color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.platform-card:hover {
+  background-color: #243248;
+  border-color: #2ea043;
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+.platform-icon {
+  font-size: 52px;
+  margin-bottom: 15px;
+}
+
+.platform-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.platform-description {
+  font-size: 15px;
+  color: #d1d5db;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.open-section {
+  display: inline-block;
+  font-size: 14px;
+  color: #2ea043;
+  font-weight: 700;
+  text-decoration: none;
+  width: 100%;
+  padding-top: 18px;
+  border-top: 1px solid #263449;
+  letter-spacing: normal;
+  transition:
+    color 0.3s ease,
+    letter-spacing 0.3s ease;
+}
+
+.platform-card:hover .open-section,
+.support-card:hover .open-section {
+  color: #3fb950;
+  letter-spacing: 0.5px;
+}
+
+/* ==========================================================
+  FAQ SECTION
+   ========================================================== */
+details {
+  background-color: #1e293b;
+  border: 1px solid #263449;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  transition: background-color 0.3s ease;
+}
+
+details[open] {
+  background-color: #243248;
+}
+
+summary {
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  color: #f0f6fc;
+}
+
+summary:hover {
+  color: #2ea043;
+}
+
+details p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #d1d5db;
+  line-height: 1.6;
+}
+
+/* ==========================================================
+  FOOTER
+   ========================================================== */
+.home-footer {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #090d16;
+  border-top: 1px solid #1e293b;
+  color: #94a3b8;
+  font-size: 14px;
 }
 
 /* ==========================================================
@@ -1175,7 +1379,6 @@ footer {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #f0f6fc;
 }
 
 body {
@@ -1215,7 +1418,6 @@ nav {
   text-decoration: none;
   font-weight: 500;
   color: #f0f6fc;
-
   transition: color 0.3s ease;
 }
 
@@ -1229,57 +1431,42 @@ nav {
 
 .ai-hero {
   text-align: center;
-
   padding: 90px 20px;
-
   background: linear-gradient(135deg, #0f172a, #1b4332, #2ea043);
-
   color: white;
 }
 
 .hero-content {
   max-width: 900px;
   margin: 0 auto;
-
   background-color: transparent;
 }
 
 .hero-label {
   display: inline-block;
-
   padding: 6px 14px;
-
   border: 1px solid #2ea043;
   border-radius: 20px;
-
   color: #2ea043;
-
   font-size: 13px;
   font-weight: bold;
   letter-spacing: 2px;
-
   background-color: #090d16;
 }
 
 .ai-hero h1 {
   margin-top: 25px;
   margin-bottom: 20px;
-
   font-size: 48px;
   line-height: 1.2;
-
   background-color: transparent;
 }
 
 .ai-hero p {
   max-width: 700px;
-
   margin: 0 auto;
-
   font-size: 19px;
-
   color: #d1d5db;
-
   background-color: transparent;
 }
 
@@ -1296,27 +1483,18 @@ nav {
 
 .section-title {
   text-align: center;
-
   font-size: 36px;
-
   margin-bottom: 15px;
-
   color: #f0f6fc;
-
   background-color: transparent;
 }
 
 .section-description {
   max-width: 700px;
-
   margin: 0 auto 45px auto;
-
   text-align: center;
-
   color: #8b949e;
-
   font-size: 17px;
-
   background-color: transparent;
 }
 
@@ -1326,23 +1504,16 @@ nav {
 
 .path-grid {
   max-width: 1200px;
-
   margin: 0 auto;
-
   display: grid;
-
   grid-template-columns: repeat(4, 1fr);
-
   gap: 25px;
 }
 
 .path-card {
   background-color: #1e293b;
-
   padding: 30px 25px;
-
   border-radius: 12px;
-
   border: 1px solid #263449;
 
   transition:
@@ -1353,43 +1524,30 @@ nav {
 
 .path-card:hover {
   transform: translateY(-6px);
-
   background-color: #243248;
-
   border-color: #2ea043;
 }
 
 .path-number {
   display: block;
-
   margin-bottom: 20px;
-
   color: #2ea043;
-
   font-size: 14px;
-
   font-weight: bold;
-
   letter-spacing: 2px;
-
   background-color: transparent;
 }
 
 .path-card h3 {
   font-size: 22px;
-
   margin-bottom: 12px;
-
   color: #f0f6fc;
-
   background-color: transparent;
 }
 
 .path-card p {
   color: #8b949e;
-
   font-size: 15px;
-
   background-color: transparent;
 }
 
@@ -1399,31 +1557,20 @@ nav {
 
 .resource-grid {
   max-width: 1200px;
-
   margin: 0 auto;
-
   display: grid;
-
   grid-template-columns: repeat(3, 1fr);
-
   gap: 25px;
 }
 
 .resource-card {
   background-color: #1e293b;
-
   padding: 28px;
-
   border-radius: 12px;
-
   border: 1px solid #263449;
-
   display: flex;
-
   flex-direction: column;
-
   min-height: 360px;
-
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease,
@@ -1432,9 +1579,7 @@ nav {
 
 .resource-card:hover {
   transform: translateY(-6px);
-
   border-color: #2ea043;
-
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
 }
 
@@ -1444,26 +1589,18 @@ nav {
 
 .resource-top {
   display: flex;
-
   justify-content: space-between;
-
   align-items: center;
-
   gap: 10px;
-
   margin-bottom: 20px;
-
   background-color: transparent;
 }
 
 .resource-type,
 .resource-level {
   font-size: 11px;
-
   font-weight: bold;
-
   letter-spacing: 1px;
-
   background-color: transparent;
 }
 
@@ -1473,29 +1610,21 @@ nav {
 
 .resource-level {
   color: #8b949e;
-
   text-align: right;
 }
 
 .resource-card h3 {
   font-size: 22px;
-
   line-height: 1.3;
-
   margin-bottom: 15px;
-
   color: #f0f6fc;
-
   background-color: transparent;
 }
 
 .resource-card p {
   font-size: 15px;
-
   color: #8b949e;
-
   margin-bottom: 20px;
-
   background-color: transparent;
 }
 
@@ -1505,27 +1634,18 @@ nav {
 
 .resource-tags {
   display: flex;
-
   flex-wrap: wrap;
-
   gap: 8px;
-
   margin-top: auto;
-
   margin-bottom: 20px;
-
   background-color: transparent;
 }
 
 .resource-tags span {
   padding: 5px 10px;
-
   border-radius: 5px;
-
   background-color: #090d16;
-
   color: #8b949e;
-
   font-size: 12px;
 }
 
@@ -1535,41 +1655,27 @@ nav {
 
 .resource-footer {
   display: flex;
-
   justify-content: space-between;
-
   align-items: center;
-
   gap: 15px;
-
   background-color: transparent;
 }
 
 .cost {
   color: #2ea043;
-
   font-size: 12px;
-
   font-weight: bold;
-
   background-color: transparent;
 }
 
 .resource-button {
   display: inline-block;
-
   padding: 9px 15px;
-
   border-radius: 5px;
-
   background-color: #090d16;
-
   color: #2ea043;
-
   text-decoration: none;
-
   font-size: 13px;
-
   font-weight: bold;
 
   transition:
@@ -1579,7 +1685,6 @@ nav {
 
 .resource-button:hover {
   background-color: #2ea043;
-
   color: white;
 }
 
@@ -1593,53 +1698,37 @@ nav {
 
 .support-grid {
   max-width: 1000px;
-
   margin: 0 auto;
-
   display: grid;
-
   grid-template-columns: repeat(3, 1fr);
-
   gap: 25px;
 }
 
 .support-card {
   background-color: #1e293b;
-
   padding: 25px;
-
   border-radius: 10px;
-
   border-left: 4px solid #2ea043;
 }
 
 .support-card h3 {
   font-size: 21px;
-
   margin-bottom: 10px;
-
   color: #f0f6fc;
-
   background-color: transparent;
 }
 
 .support-card p {
   color: #8b949e;
-
   margin-bottom: 15px;
-
   background-color: transparent;
 }
 
 .support-card a {
   color: #2ea043;
-
   text-decoration: none;
-
   font-weight: bold;
-
   font-size: 14px;
-
   background-color: transparent;
 }
 
@@ -1649,37 +1738,27 @@ nav {
 
 .guide-section {
   max-width: 1000px;
-
   margin: 0 auto;
 }
 
 .guide-section details {
   background-color: #1e293b;
-
   border: 1px solid #263449;
-
   border-radius: 8px;
-
   margin-bottom: 12px;
-
   padding: 18px 22px;
 }
 
 .guide-section summary {
   cursor: pointer;
-
   color: #f0f6fc;
-
   font-weight: bold;
-
   background-color: transparent;
 }
 
 .guide-section details p {
   margin-top: 15px;
-
   color: #8b949e;
-
   background-color: transparent;
 }
 
@@ -1689,13 +1768,9 @@ nav {
 
 .home-footer {
   text-align: center;
-
   padding: 30px 20px;
-
   border-top: 1px solid #1e293b;
-
   margin-top: 40px;
-
   color: #8b949e;
 }
 
@@ -1732,17 +1807,13 @@ nav {
 @media (max-width: 650px) {
   nav {
     flex-direction: column;
-
     gap: 20px;
-
     padding: 20px;
   }
 
   .nav-menu {
     gap: 15px;
-
     flex-wrap: wrap;
-
     justify-content: center;
   }
 

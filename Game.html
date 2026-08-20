@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Development Resources</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body class="game-body">
-    <nav  class="nav-bar">
+<body class="platforms-body">
+
+    <!-- NAVIGATION -->
+    <nav class="nav-bar">
         <h1 id="nav-heading">Tech Resources Locator</h1>
         <div class="nav-menu">
             <a href="index.html">Home</a>
@@ -16,307 +21,251 @@
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
         </div>
-            
     </nav>
 
     <main>
+        <!-- HERO SECTION -->
         <header class="hero-section">
             <div class="hero-content">
-                <span id="game-label">GAME DEVELOPMENT</span><br>
-                <h1 id="game-title">Game Development Resources</h1><br>
-                <p id="game-description">Welcome to our Game Development Resources section! Here you can find a curated list of the best platforms for learning and developing your game development skills.</p>
+                <span class="hero-label">GAME DEVELOPMENT</span>
+                <h1 class="hero-title">Game Development Resources</h1>
+                <p class="hero-description">
+                    Welcome to our Game Development Resources section! Explore a curated list of top learning platforms, frameworks, and tools to master game creation.
+                </p>
             </div>
         </header>
 
+        <!-- LEARNING PATH -->
         <section class="path">
             <h2 class="section-heading">Game Development Learning Path</h2>
-            <p class="section-description">Follow this structured learning path to master game development from the ground up.</p>
-        
+            <p class="section-description">Follow this structured roadmap to build games from the ground up.</p>
+
             <div class="path-grid">
                 <article class="path-step">
                     <span class="step-number">01</span>
                     <h3 class="step-title">Foundations</h3>
-                    <p class="step-description">Choose a language like C# or C++ which are widely used in game development.</p>
+                    <p class="step-description">Choose a core language like C# or C++ widely used in modern engine pipelines.</p>
                 </article>
 
                 <article class="path-step">
                     <span class="step-number">02</span>
                     <h3 class="step-title">Game Design Principles</h3>
-                    <p class="step-description">Learn about game mechanics, storytelling, and user experience to create engaging games.</p> 
+                    <p class="step-description">Learn core mechanics, loop structures, storytelling, and player feedback.</p>
                 </article>
 
                 <article class="path-step">
                     <span class="step-number">03</span>
                     <h3 class="step-title">Core Game Engines</h3>
-                    <p class="step-description">Select a game engine like Unity or Unreal Engine to start building your games.</p>
+                    <p class="step-description">Select an engine like Unity, Unreal Engine 5, or Godot 4 to build game loops.</p>
                 </article>
 
                 <article class="path-step">
                     <span class="step-number">04</span>
-                    <h3 class="step-title">Advanced Mechanics & Graphics</h3>
-                    <p class="step-description">Dive into advanced topics like AI, physics, and multiplayer networking to enhance your games.</p>
+                    <h3 class="step-title">Advanced Mechanics</h3>
+                    <p class="step-description">Implement spatial math, physics listeners, AI state machines, and shaders.</p>
                 </article>
 
                 <article class="path-step">
                     <span class="step-number">05</span>
-                    <h3 class="step-title">Polish, Optimization & Publishing</h3>
-                    <p class="step-description">Game feel/juice, particle systems, profiling & performance tuning, multiplayer networking, and multi-platform deployment.</p>
+                    <h3 class="step-title">Polish & Publishing</h3>
+                    <p class="step-description">Focus on game feel, juice, profiling, cross-platform builds, and deployment.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- FEATURED RESOURCES -->
+        <section class="resources">
+            <h2 class="section-heading">Featured Resources</h2>
+            <p class="section-description">Hand-picked courses and documentation to elevate your workflow.</p>
+
+            <div class="resource-grid">
+                <!-- Resource 1 -->
+                <article class="resource-card">
+                    <div class="resource-top">
+                        <span class="resource-type">COURSE</span>
+                        <span class="resource-level">BEGINNER → INTERMEDIATE</span>
+                    </div>
+
+                    <h3>CS50's Intro to Game Dev</h3>
+                    <p>Harvard's hands-on course covering 2D/3D principles, animation, and physics using LÖVE 2D and Unity.</p>
+
+                    <div class="resource-tags">
+                        <span>Game Design</span>
+                        <span>Lua & C#</span>
+                        <span>Unity</span>
+                    </div>
+
+                    <div class="resource-footer">
+                        <span class="cost">FREE</span>
+                        <a href="https://pll.harvard.edu/course/cs50s-introduction-2d-game-development" target="_blank" rel="noopener noreferrer" class="resource-button">Visit Resource →</a>
+                    </div>
                 </article>
 
-            </div>
+                <!-- Resource 2 -->
+                <article class="resource-card">
+                    <div class="resource-top">
+                        <span class="resource-type">PATHWAY</span>
+                        <span class="resource-level">BEGINNER</span>
+                    </div>
 
+                    <h3>Unity Learn — Junior Pathway</h3>
+                    <p>Official guided learning pathway to take you from basic programming to job-ready Unity C# development.</p>
+
+                    <div class="resource-tags">
+                        <span>3D & 2D</span>
+                        <span>C#</span>
+                        <span>Unity</span>
+                    </div>
+
+                    <div class="resource-footer">
+                        <span class="cost">FREE</span>
+                        <a href="https://learn.unity.com/pathway/junior-programmer" target="_blank" rel="noopener noreferrer" class="resource-button">Visit Resource →</a>
+                    </div>
+                </article>
+
+                <!-- Resource 3 -->
+                <article class="resource-card">
+                    <div class="resource-top">
+                        <span class="resource-type">OFFICIAL COURSES</span>
+                        <span class="resource-level">ALL LEVELS</span>
+                    </div>
+
+                    <h3>Epic Developer Community</h3>
+                    <p>On-demand Unreal Engine 5 modules covering Blueprints, C++ gameplay, lighting, and Sequencer.</p>
+
+                    <div class="resource-tags">
+                        <span>Unreal Engine 5</span>
+                        <span>Blueprints</span>
+                        <span>C++</span>
+                    </div>
+
+                    <div class="resource-footer">
+                        <span class="cost">FREE</span>
+                        <a href="https://dev.epicgames.com/community/learning" target="_blank" rel="noopener noreferrer" class="resource-button">Visit Resource →</a>
+                    </div>
+                </article>
+
+                <!-- Resource 4 -->
+                <article class="resource-card">
+                    <div class="resource-top">
+                        <span class="resource-type">DOCUMENTATION</span>
+                        <span class="resource-level">BEGINNER → INTERMEDIATE</span>
+                    </div>
+
+                    <h3>Godot Engine Official Docs</h3>
+                    <p>Official step-by-step guides for Godot 4, teaching node hierarchies, GDScript, and 2D/3D physics.</p>
+
+                    <div class="resource-tags">
+                        <span>Godot 4</span>
+                        <span>GDScript</span>
+                        <span>Open Source</span>
+                    </div>
+
+                    <div class="resource-footer">
+                        <span class="cost">FREE</span>
+                        <a href="https://docs.godotengine.org/" target="_blank" rel="noopener noreferrer" class="resource-button">Visit Resource →</a>
+                    </div>
+                </article>
+
+                <!-- Resource 5 -->
+                <article class="resource-card">
+                    <div class="resource-top">
+                        <span class="resource-type">TUTORIALS</span>
+                        <span class="resource-level">BEGINNER</span>
+                    </div>
+
+                    <h3>freeCodeCamp Game Dev</h3>
+                    <p>Comprehensive video courses covering Pygame, HTML5 Canvas, C++ with Raylib, and Godot projects.</p>
+
+                    <div class="resource-tags">
+                        <span>C++ / JS / Python</span>
+                        <span>Raylib</span>
+                        <span>2D & 3D</span>
+                    </div>
+
+                    <div class="resource-footer">
+                        <span class="cost">FREE</span>
+                        <a href="https://www.freecodecamp.org/news/tag/game-development/" target="_blank" rel="noopener noreferrer" class="resource-button">Visit Resource →</a>
+                    </div>
+                </article>
+
+                <!-- Resource 6 -->
+                <article class="resource-card">
+                    <div class="resource-top">
+                        <span class="resource-type">BOOK & TUTORIAL</span>
+                        <span class="resource-level">INTERMEDIATE</span>
+                    </div>
+
+                    <h3>LearnOpenGL Guide</h3>
+                    <p>An exhaustive guide to modern OpenGL graphics programming in C++, shaders, lighting, and custom engines.</p>
+
+                    <div class="resource-tags">
+                        <span>Graphics</span>
+                        <span>OpenGL</span>
+                        <span>C++</span>
+                    </div>
+
+                    <div class="resource-footer">
+                        <span class="cost">FREE</span>
+                        <a href="https://learnopengl.com/" target="_blank" rel="noopener noreferrer" class="resource-button">Read Guide →</a>
+                    </div>
+                </article>
+            </div>
         </section>
 
-        <section class="resources">
-        
-            <div class="resource-heading">
-                <h2 class="section-heading">Featured Resources</h2>
-                <p class="section-description">Check out these curated resources to enhance your game development skills:</p>
-            </div>
-
-        <div class="resource-grid">
-            <!--Resource 1-->
-            <article class="resource-card">
-                <div class="resource-top">
-                    <span class="resource-type"> COURSE </span>
-                    <span class="resource-level"> BEGINNER → INTERMEDIATE </span>
-                </div>
-
-                <h3>CS50's Introduction to Game Development</h3>
-
-                <p>Harvard's hands-on game course covering 2D and 3D principles, animation,
-                sound, and collision detection through classics like Super Mario,
-                Pokémon, and Portal using LÖVE 2D and Unity.</p>
-
-                <div class="resource-tags">
-                    <span>Game Design</span>
-                    <span>Lua & C#</span>
-                    <span>Unity</span>
-                </div>
-
-                <div class="resource-footer">
-                    <span class="cost"> FREE </span>
-
-                    <a href="https://pll.harvard.edu/course/cs50s-introduction-2d-game-development"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="resource-button" > Visit Resource → </a>
-                </div>
-            </article>
-
-            <!--Resource 2-->
-            <article class="resource-card">
-                <div class="resource-top">
-                    <span class="resource-type"> PATHWAY </span>
-                    <span class="resource-level"> BEGINNER </span>
-                </div>
-
-                <h3>Unity Learn — Junior Programmer Pathway</h3>
-
-                <p>Official guided learning pathway designed to take you from zero programming
-                knowledge to job-ready Unity C# gameplay development with practical 2D & 3D projects.</p>
-
-                <div class="resource-tags">
-                    <span>3D and 2D</span>
-                    <span>C#</span>
-                    <span>Unity</span>
-                </div>
-
-                <div class="resource-footer">
-                    <span class="cost"> FREE </span>
-
-                    <a href="https://learn.unity.com/pathway/junior-programmer"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="resource-button" > Visit Resource → </a>
-                </div>
-            </article>
-
-            <!--Resource 3-->
-            <article class="resource-card">
-                <div class="resource-top">
-                    <span class="resource-type"> OFFICIAL COURSES </span>
-                    <span class="resource-level"> ALL LEVELS </span>
-                </div>
-
-                <h3>Epic Developer Community — Unreal Engine Courses</h3>
-
-                <p>Comprehensive library of official on-demand Unreal Engine 5 courses 
-                    covering Blueprints, C++ gameplay programming, lighting, Sequencer, and character rigging.</p>
-
-                <div class="resource-tags">
-                    <span>Unreal Engine 5</span>
-                    <span>Blueprints</span>
-                    <span>C++</span>
-                </div>
-
-                <div class="resource-footer">
-                    <span class="cost"> FREE </span>
-
-                    <a href="https://dev.epicgames.com/community/learning"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="resource-button"> Visit Resource → </a>
-                </div>
-            </article>
-
-            <!--Resource 4-->
-            <article class="resource-card">
-                <div class="resource-top">
-                    <span class="resource-type"> DOCUMENTATION & GUIDES </span>
-                    <span class="resource-level"> BEGINNER → INTERMEDIATE </span>
-                </div>
-
-                <h3>Godot Engine Official Step-by-Step Tutorials</h3>
-
-                <p>The official getting started guide for the lightweight, open-source 
-                    Godot Engine (Godot 4), teaching node hierarchy, GDScript, 2D physics, 
-                    and 3D rendering.</p>
-
-                <div class="resource-tags">
-                    <span>Godot 4</span>
-                    <span>GDScript</span>
-                    <span>Open Source</span>
-                </div>
-
-                <div class="resource-footer">
-                    <span class="cost"> FREE </span>
-
-                    <a href="https://docs.godotengine.org/en/stable/getting_started/introduction/index.html"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="resource-button" > Visit Resource → </a>
-                </div>
-            </article>
-
-            <!--Resource 5-->
-            <article class="resource-card">
-                <div class="resource-top">
-                    <span class="resource-type"> PRACTICE & TUTORIALS </span>
-                    <span class="resource-level"> BEGINNER </span>
-                </div>
-
-                <h3>freeCodeCamp — Game Development Tutorials</h3>
-
-                <p>In-depth video courses covering game development with Pygame,
-                    JavaScript HTML5 Canvas, C++ with Raylib, and full-length Godot 2D & 3D projects.</p>
-
-                <div class="resource-tags">
-                    <span>C++ / JS / Python</span>
-                    <span>Raylib</span>
-                    <span>2D & 3D</span>
-                </div>
-
-                <div class="resource-footer">
-                    <span class="cost"> FREE </span>
-
-                    <a href="https://www.freecodecamp.org/news/tag/game-development/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="resource-button" > Visit Resource → </a>
-                </div>
-            </article>
-
-            <!--Resource 6-->
-            <article class="resource-card">
-                <div class="resource-top">
-                    <span class="resource-type"> BOOK + TUTORIAL </span>
-                    <span class="resource-level"> INTERMEDIATE </span>
-                </div>
-
-                <h3>LearnOpenGL — Graphics & Game Engine Dev</h3>
-
-                <p>An exhaustive guide to modern OpenGL graphics programming in C++, 
-                    covering shaders, lighting models, camera movement, model loading, 
-                    and custom rendering engines.</p>
-
-                <div class="resource-tags">
-                    <span>Graphics</span>
-                    <span>OpenGL</span>
-                    <span>C++</span>
-                </div>
-
-                <div class="resource-footer">
-                    <span class="cost"> FREE </span>
-
-                    <a href="https://learnopengl.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="resource-button" > Read Guide → </a>
-                </div>
-            </article>
-        </div>
-        </section>
-
+        <!-- SUPPORTING SKILLS -->
         <section class="support-section">
-        <h2 class="section-heading">Supporting Game Dev Skills</h2>
+            <h2 class="section-heading">Supporting Game Dev Skills</h2>
 
-        <div class="support-grid">
-            <article class="support-card">
-                <h3>Math & Physics for Games</h3>
+            <div class="support-grid">
+                <article class="support-card">
+                    <h3>Math & Physics for Games</h3>
+                    <p>Vectors, dot/cross products, quaternions, matrices, raycasting, and AABB collision math.</p>
+                    <a href="https://www.khanacademy.org/math/linear-algebra" target="_blank" rel="noopener noreferrer" class="open-section">Explore Resources →</a>
+                </article>
 
-                <p>Vectors, dot/cross products, quaternions, matrices, raycasting, and AABB collisions.</p>
+                <article class="support-card">
+                    <h3>3D Modeling & 2D Art</h3>
+                    <p>Blender for 3D assets & rigging, Aseprite/Piskel for pixel art, and texture workflow.</p>
+                    <a href="https://www.blender.org/support/tutorials/" target="_blank" rel="noopener noreferrer" class="open-section">Explore Resources →</a>
+                </article>
 
-                <a href="https://www.khanacademy.org/math/linear-algebra"
-                target="_blank"
-                rel="noopener noreferrer" class="open-section"> Explore Resources → </a>
-            </article>
-
-            <article class="support-card">
-                <h3>3D Modeling & 2D Art</h3>
-
-                <p>Blender for 3D assets & rigging, Aseprite/Piskel for pixel art, and texture painting.</p>
-
-                <a href="https://www.blender.org/support/tutorials/" target="_blank"
-                rel="noopener noreferrer" class="open-section"> Explore Resources → </a>
-            </article>
-
-            <article class="support-card">
-                <h3>Audio & Sound FX</h3>
-
-                <p>Audacity, LMMS, Bfxr/Sfxr for retro sounds, spatial audio, and adaptive game music.</p>
-
-                <a href="https://opengameart.org/content/free-sounds"
-                target="_blank" rel="noopener noreferrer" class="open-section"> Explore Resources → </a>
-            </article>
-        </div>
+                <article class="support-card">
+                    <h3>Audio & Sound FX</h3>
+                    <p>Audacity, LMMS, Bfxr/Sfxr for retro audio generation, spatial audio, and dynamic music.</p>
+                    <a href="https://opengameart.org/content/free-sounds" target="_blank" rel="noopener noreferrer" class="open-section">Explore Resources →</a>
+                </article>
+            </div>
         </section>
 
+        <!-- FAQ SECTION -->
         <section class="guide-section">
-        <h2 class="section-heading">How Should You Choose Your Starting Point?</h2>
+            <h2 class="section-heading">How Should You Choose Your Starting Point?</h2>
 
             <details>
-            <summary>I'm completely new to game programming</summary>
+                <summary>I'm completely new to game programming</summary>
+                <p>Start with <strong>Godot Engine</strong> (using GDScript) or <strong>Unity</strong> (using C#). Build small 2D projects like Pong or Flappy Bird before attempting complex 3D titles.</p>
+            </details>
 
+            <details>
+                <summary>Which game engine should I choose?</summary>
                 <p>
-                    Start with <strong>Godot Engine</strong> (using GDScript, which is similar to Python) or <strong>Unity</strong> (using C#). Focus on simple 2D projects like Pong, Flappy Bird, or a basic platformer before moving to 3D.
+                    • <strong>Godot:</strong> Lightweight, open-source, ideal for 2D/3D indie games.<br>
+                    • <strong>Unity:</strong> Strong cross-platform reach, huge asset store, C# ecosystem.<br>
+                    • <strong>Unreal Engine 5:</strong> High-end 3D graphics, cinematic visuals, and Blueprint visual scripting.
                 </p>
             </details>
 
             <details>
-            <summary>Which game engine should I choose?</summary>
-
-                <p>
-                    • <strong>Godot:</strong> Best for lightweight 2D/3D games, quick prototyping, and open-source flexibility.<br />
-                    • <strong>Unity:</strong> Great cross-platform versatility, vast marketplace, high indie adoption, and strong C# ecosystem.<br />
-                    • <strong>Unreal Engine 5:</strong> Best for high-end 3D graphics, cinematic visuals, large team pipelines, and node-based Visual Scripting (Blueprints).
-                </p>
-            </details>
-
-            <details>
-            <summary>How do I build a portfolio and finish games?</summary>
-
-                <p>
-                    Participate in game jams (like <em>itch.io Game Jams</em> or <em>Ludum Dare</em>) to build short, complete titles within 48–72 hours. Finishing small projects is the fastest way to learn game loop design and scope management.
-                </p>
+                <summary>How do I build a portfolio and finish games?</summary>
+                <p>Join game jams on <em>itch.io</em> or <em>Ludum Dare</em> to finish small 48-hour prototypes. Completing small games builds essential scope-management skills fast.</p>
             </details>
         </section>
     </main>
 
+    <!-- FOOTER -->
     <footer class="home-footer">
-        <p>
-            &copy; 2026 Tech Resources Locator. Built for developers, by developers.
-        </p>
+        <p>&copy; 2026 Tech Resources Locator. Built for developers, by developers.</p>
     </footer>
 </body>
 </html>
