@@ -702,7 +702,7 @@ footer {
 }
 .supporting-skills h1{
   text-align: center;
-  margin-bottom: 0;
+
 }
 .supporting-skills h2 {
   font-size: 21px;
@@ -861,14 +861,14 @@ footer {
 
 /* Software Development Resources Section */
 .software-resources {
+  width:100%;
   text-align: center;
-  padding: 30px 20px 0;
+  padding: 50px 20px 20px;
 }
 
 .software-resources h1 {
   font-size: 40px;
   font-weight: bold;
-  text-align: center;
   color: white;
   margin: 0 0 10px 0;
 }
@@ -876,7 +876,7 @@ footer {
   font-size: 19px;
   color: #8b949e;
   text-align: center;
-  margin: 0;
+  margin: 0 auto;
   line-height: 1.5;
 }
 
@@ -884,10 +884,9 @@ footer {
   max-width: 1200px;
   display: grid;
   width: 90%;
-  margin: 15px auto 60px;
+  margin: 30px auto 60px;
   margin-top: 10px;
   display: grid;
-  align-items: center;
   gap: 25px;
   grid-template-columns: repeat(3, 1fr);
 }
