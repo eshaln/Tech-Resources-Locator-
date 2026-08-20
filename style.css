@@ -700,9 +700,12 @@ footer {
    max-width: 1200px;
   margin: 40px auto;
 }
-.supporting-skills h1{
+h1.support-section{
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
   text-align: center;
-
+  color: #f0f6fc;
 }
 .supporting-skills h2 {
   font-size: 21px;
