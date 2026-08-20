@@ -705,9 +705,10 @@ footer {
 }
 .support-section h1 {
   text-align: center;
-
+  font-size: 32px;
   margin-top: 10px;
-  font-size: 40px;
+  margin-bottom: 20px;
+  
 }
 .supporting-skills h2 {
   font-size: 21px;
