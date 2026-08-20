@@ -699,17 +699,10 @@ footer {
   color: white;
    max-width: 1200px;
   margin: 40px auto;
-  padding: 40px 20px;
-
 }
-.support-section{
+.supporting-skills h1{
   text-align: center;
-  margin-bottom: 25px;
-}
-.support-section h1 {
-  
-  font-size: 32px;
-  margin: 0;
+  margin-bottom: 0;
 }
 .supporting-skills h2 {
   font-size: 21px;
