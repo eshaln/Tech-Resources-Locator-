@@ -695,20 +695,21 @@ footer {
    ========================================================== */
 
 .supporting-skills {
- 
-  max-width: 1200px;
-  margin: 40px auto;
-  padding: 60px 40px;
   background-color: #0c111c;
   color: white;
+   max-width: 1200px;
+  margin: 40px auto;
+  padding: 60px 40px;
 
 }
-.support-section h1 {
+.support-section{
   text-align: center;
-  font-size: 32px;
-  margin-top: 10px;
   margin-bottom: 20px;
-  
+}
+.support-section h1 {
+ 
+  font-size: 32px;
+margin: 0px;
 }
 .supporting-skills h2 {
   font-size: 21px;
@@ -735,7 +736,9 @@ footer {
   padding: 25px;
   border-radius: 10px;
   border-left: 4px solid #2ea043;
-  margin-bottom: 30px;
+  display:flex;
+  flex-direction: column;
+
 }
 
 .supporting-card a {
