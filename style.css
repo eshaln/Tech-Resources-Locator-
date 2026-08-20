@@ -408,7 +408,7 @@ footer {
   color: #8b949e;
   text-align: center;
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 /* ==========================================================
    WEB DEV LEARNING PATH
@@ -508,7 +508,7 @@ footer {
   max-width: 1200px;
   display: grid;
   width: 90%;
-  margin: 40px auto;
+  margin: 0 auto 40px auto;
   align-items: center;
   gap: 25px;
   grid-template-columns: repeat(3, 1fr);
@@ -527,7 +527,7 @@ footer {
   min-height: 360px;
   display: flex;
   flex-direction: column;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 
   transition:
     transform 0.3s ease,
@@ -707,9 +707,9 @@ footer {
   margin-bottom: 20px;
 }
 .support-section h1 {
- 
+  
   font-size: 32px;
-margin: 0px;
+  margin: 0px;
 }
 .supporting-skills h2 {
   font-size: 21px;
