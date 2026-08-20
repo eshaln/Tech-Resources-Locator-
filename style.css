@@ -695,8 +695,13 @@ footer {
    ========================================================== */
 
 .supporting-skills {
+ 
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 60px 40px;
   background-color: #0c111c;
   color: white;
+
 }
 .support-section h1 {
   text-align: center;
@@ -719,9 +724,9 @@ footer {
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+ grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 25px;
-  justify-items: center;
+  
 }
 
 .supporting-card {
