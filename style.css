@@ -687,14 +687,19 @@ footer {
   background-color: #0c111c;
   color: white;
    max-width: 1200px;
+   min-height:400px;
   margin: 40px auto;
+  padding-top:40px;
 }
-.supporting-skills h1{
-  font-size: 32px;
+
+
+.skills-heading h1{
+ font-size: 32px;
   font-weight: 700;
   margin-bottom: 22px;
   text-align: center;
   color: #f0f6fc;
+  
 }
 .supporting-skills h2 {
   font-size: 21px;
@@ -708,7 +713,7 @@ footer {
 }
 
 .supporting-container {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   display: grid;
  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -733,6 +738,7 @@ footer {
   font-size: 14px;
   background-color: transparent;
 }
+
 .resource-guide h1 {
   color: white;
   text-align: center;
