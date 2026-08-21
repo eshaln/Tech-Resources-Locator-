@@ -501,18 +501,7 @@ footer {
   border-color: #2ea043;
 }
 
-/* ==========================================================
-   RESOURCE CARDS CONTAINER
-   ========================================================== */
-.resource-container {
-  max-width: 1200px;
-  display: grid;
-  width: 90%;
-  margin: 0 auto 40px auto;
-  align-items: center;
-  gap: 25px;
-  grid-template-columns: repeat(3, 1fr);
-}
+
 
 /* ==========================================================
    RESOURCE CARD
@@ -697,15 +686,29 @@ footer {
 .supporting-skills {
   background-color: #0c111c;
   color: white;
+<<<<<<< HEAD
   max-width: 1200px;
+=======
+   max-width: 1200px;
+   min-height:400px;
+>>>>>>> m1
   margin: 40px auto;
+  padding-top:40px;
 }
+<<<<<<< HEAD
 .supporting-skills h1 {
   font-size: 32px;
+=======
+
+
+.skills-heading h1{
+ font-size: 32px;
+>>>>>>> m1
   font-weight: 700;
   margin-bottom: 22px;
   text-align: center;
   color: #f0f6fc;
+  
 }
 .supporting-skills h2 {
   font-size: 21px;
@@ -719,7 +722,7 @@ footer {
 }
 
 .supporting-container {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -742,6 +745,7 @@ footer {
   font-size: 14px;
   background-color: transparent;
 }
+
 .resource-guide h1 {
   color: white;
   text-align: center;
@@ -891,11 +895,14 @@ footer {
   line-height: 1.5;
   margin-bottom: 20px;
 }
+<<<<<<< HEAD
 .resource-card {
   background-color: #1e293b;
   padding: 25px;
   border-radius: 15px;
 }
+=======
+>>>>>>> m1
 
 /* ==========================================================
   ASRA FATMA
