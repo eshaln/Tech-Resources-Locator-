@@ -873,6 +873,8 @@ footer {
   display: grid;
   gap: 25px;
   grid-template-columns: repeat(3, 1fr);
+  background-color: transparent;
+  padding:0;
 
 }
 .resource-heading h1{
@@ -880,6 +882,7 @@ footer {
   font-weight: bold;
   color: white;
   margin: 0 0 10px 0;
+  text-align:center;
 
 }
 
@@ -890,7 +893,11 @@ footer {
   margin: 0 auto;
   line-height: 1.5;
 }
-
+.resource-card {
+    background-color: #1e293b;
+    padding: 25px;
+    border-radius: 15px;
+}
 
 
 
