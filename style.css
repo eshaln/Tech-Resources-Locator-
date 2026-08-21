@@ -504,15 +504,6 @@ footer {
 /* ==========================================================
    RESOURCE CARDS CONTAINER
    ========================================================== */
-.resource-container {
-  max-width: 1200px;
-  display: grid;
-  width: 90%;
-  margin: 0 auto 40px auto;
-  align-items: center;
-  gap: 25px;
-  grid-template-columns: repeat(3, 1fr);
-}
 
 /* ==========================================================
    RESOURCE CARD
@@ -896,11 +887,6 @@ footer {
   margin: 0 auto;
   line-height: 1.5;
   margin-bottom:20px;
-}
-.resource-card {
-    background-color: #1e293b;
-    padding: 25px;
-    border-radius: 15px;
 }
 
 
