@@ -704,7 +704,6 @@ footer {
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 22px;
-  margin-top:20px;
   text-align: center;
   color: #f0f6fc;
 }
@@ -864,19 +863,27 @@ footer {
 }
 
 /* Software Development Resources Section */
-.software-resources {
-  width:100%;
-  text-align: center;
-  padding: 50px 20px 20px;
+.resources-section {
+  max-width: 1200px;
+  width: 90%;
+  margin:10px auto 60px;
+  
 }
+.resource-cards{
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(3, 1fr);
 
-.software-resources h1 {
+}
+.resource-heading h1{
   font-size: 40px;
   font-weight: bold;
   color: white;
   margin: 0 0 10px 0;
+
 }
-.software-resources p {
+
+.resource-heading > p {
   font-size: 19px;
   color: #8b949e;
   text-align: center;
@@ -884,16 +891,8 @@ footer {
   line-height: 1.5;
 }
 
-.resources-section {
-  max-width: 1200px;
-  display: grid;
-  width: 90%;
-  margin: 30px auto 60px;
-  margin-top: 10px;
-  display: grid;
-  gap: 25px;
-  grid-template-columns: repeat(3, 1fr);
-}
+
+
 
 /* ==========================================================
   ASRA FATMA
