@@ -686,24 +686,12 @@ footer {
 .supporting-skills {
   background-color: #0c111c;
   color: white;
-<<<<<<< HEAD
   max-width: 1200px;
-=======
-   max-width: 1200px;
-   min-height:400px;
->>>>>>> m1
   margin: 40px auto;
   padding-top:40px;
 }
-<<<<<<< HEAD
 .supporting-skills h1 {
   font-size: 32px;
-=======
-
-
-.skills-heading h1{
- font-size: 32px;
->>>>>>> m1
   font-weight: 700;
   margin-bottom: 22px;
   text-align: center;
@@ -895,14 +883,11 @@ footer {
   line-height: 1.5;
   margin-bottom: 20px;
 }
-<<<<<<< HEAD
 .resource-card {
   background-color: #1e293b;
   padding: 25px;
   border-radius: 15px;
 }
-=======
->>>>>>> m1
 
 /* ==========================================================
   ASRA FATMA
