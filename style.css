@@ -710,13 +710,7 @@ footer {
   margin-bottom: 15px;
 }
 
-.supporting-container {
-  max-width: 1100px;
-  margin: 0 auto;
-  display: grid;
-grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
-}
+
 
 .supporting-card {
   background-color: #1e293b;
