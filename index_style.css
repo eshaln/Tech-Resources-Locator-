@@ -12,17 +12,13 @@ body {
 
 nav {
   display: flex;
-
   justify-content: space-between;
-
   align-items: center;
-
   padding: 20px 80px;
 }
 
 .nav-menu {
   display: flex;
-
   gap: 30px;
 }
 
@@ -238,4 +234,105 @@ nav {
   border-top: 1px solid #1e293b;
   margin-top: 40px;
   color: #8b949e;
+}
+
+/* ==========================================================
+   SUBMIT A RESOURCE CTA BANNER
+   ========================================================== */
+
+.submit-cta-banner {
+  max-width: 1000px;
+  margin: 60px auto 40px auto;
+  padding: 35px 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+
+  background-color: #1e293b;
+  border: 1px solid #2ea043;
+  border-radius: 12px;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.cta-content {
+  background-color: transparent !important;
+}
+
+.cta-content h2 {
+  font-size: 28px;
+  color: #f0f6fc;
+  margin-bottom: 10px;
+  background-color: transparent !important;
+}
+
+.cta-content p {
+  max-width: 650px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #8b949e;
+  background-color: transparent !important;
+}
+
+.cta-action {
+  background-color: transparent !important;
+  flex-shrink: 0;
+}
+
+.btn-submit-solid {
+  display: inline-block;
+
+  padding: 12px 24px;
+
+  background-color: #2ea043;
+  color: #ffffff;
+
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+
+  border-radius: 6px;
+
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.btn-submit-solid:hover {
+  background-color: #238636;
+  color: #ffffff;
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 5px 15px rgba(46, 160, 67, 0.3);
+}
+
+/* ==========================================================
+   RESPONSIVE CTA
+   ========================================================== */
+
+@media (max-width: 768px) {
+  .submit-cta-banner {
+    margin: 40px 20px;
+    padding: 30px 25px;
+
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cta-content p {
+    margin: 0 auto;
+  }
+
+  .cta-action {
+    width: 100%;
+  }
+
+  .btn-submit-solid {
+    width: 100%;
+    text-align: center;
+  }
 }

@@ -264,6 +264,7 @@ body {
   border-radius: 8px;
   box-sizing: border-box;
   color: #2ea043;
+  font-size: 16px;
 }
 
 .contact-form button {
@@ -324,7 +325,7 @@ body {
 .info-item p {
   margin: 0;
 
-  font-size: 18px;
+  font-size: 19px;
 }
 .info-item span {
   font-size: 20px;
@@ -407,7 +408,7 @@ footer {
   color: #8b949e;
   text-align: center;
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 /* ==========================================================
    WEB DEV LEARNING PATH
@@ -500,24 +501,13 @@ footer {
   border-color: #2ea043;
 }
 
-/* ==========================================================
-   RESOURCE CARDS CONTAINER
-   ========================================================== */
-.resource-container {
-  max-width: 1200px;
-  display: grid;
-  width: 90%;
-  margin: 40px auto;
-  align-items: center;
-  gap: 25px;
-  grid-template-columns: repeat(3, 1fr);
-}
+
 
 /* ==========================================================
    RESOURCE CARD
    ========================================================== */
 
-.resource-cards {
+.resource-card {
   padding: 28px;
   background-color: #1e293b;
   color: #f0f6fc;
@@ -526,14 +516,14 @@ footer {
   min-height: 360px;
   display: flex;
   flex-direction: column;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease,
     border-color 0.3s ease;
 }
-.resource-cards:hover {
+.resource-card:hover {
   transform: translateY(-6px);
 
   border-color: #2ea043;
@@ -696,12 +686,18 @@ footer {
 .supporting-skills {
   background-color: #0c111c;
   color: white;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding-top:40px;
+  padding-bottom: 40px;
 }
-.support-section h1 {
+.supporting-skills h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 22px;
   text-align: center;
-
-  margin-top: 10px;
-  font-size: 40px;
+  color: #f0f6fc;
+  
 }
 .supporting-skills h2 {
   font-size: 21px;
@@ -714,21 +710,15 @@ footer {
   margin-bottom: 15px;
 }
 
-.supporting-container {
-  max-width: 1000px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
-  justify-items: center;
-}
+
 
 .supporting-card {
   background-color: #1e293b;
   padding: 25px;
   border-radius: 10px;
   border-left: 4px solid #2ea043;
-  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 .supporting-card a {
@@ -738,6 +728,7 @@ footer {
   font-size: 14px;
   background-color: transparent;
 }
+
 .resource-guide h1 {
   color: white;
   text-align: center;
@@ -857,36 +848,40 @@ footer {
 }
 
 /* Software Development Resources Section */
-.software-resources {
-  text-align: center;
-  padding: 30px 20px 0;
+.resources-section {
+  max-width: 1200px;
+  width: 90%;
+  margin: 10px auto 60px;
 }
-
-.software-resources h1 {
+.resource-cards {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+.resource-heading h1 {
   font-size: 40px;
   font-weight: bold;
-  text-align: center;
   color: white;
   margin: 0 0 10px 0;
+  text-align: center;
 }
-.software-resources p {
+
+.resource-heading > p {
   font-size: 19px;
   color: #8b949e;
   text-align: center;
-  margin: 0;
+  margin: 0 auto;
   line-height: 1.5;
+  margin-bottom: 20px;
 }
-
-.resources-section {
-  max-width: 1200px;
-  display: grid;
-  width: 90%;
-  margin: 15px auto 60px;
-  margin-top: 10px;
-  display: grid;
-  align-items: center;
-  gap: 25px;
-  grid-template-columns: repeat(3, 1fr);
+.resource-card {
+  background-color: #1e293b;
+  padding: 25px;
+  border-radius: 15px;
 }
 
 /* ==========================================================
@@ -1021,14 +1016,18 @@ footer {
 
 .path-step,
 .path-card {
-  flex: 0 1 calc(33.333% - 18px); 
+  flex: 0 1 calc(33.333% - 18px);
   min-width: 280px;
   background-color: #1e293b;
   color: #ffffff;
   padding: 30px 25px;
   border-radius: 10px;
   border: 1px solid #263449;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background-color 0.3s ease,
+    border-color 0.3s ease;
 }
 
 .path-step:hover,
@@ -1083,7 +1082,9 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .resource-card:hover {
@@ -1264,7 +1265,11 @@ footer {
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background-color 0.3s ease,
+    border-color 0.3s ease;
 }
 
 .platform-card:hover {
@@ -1303,7 +1308,9 @@ footer {
   padding-top: 18px;
   border-top: 1px solid #263449;
   letter-spacing: normal;
-  transition: color 0.3s ease, letter-spacing 0.3s ease;
+  transition:
+    color 0.3s ease,
+    letter-spacing 0.3s ease;
 }
 
 .platform-card:hover .open-section,
@@ -1311,7 +1318,6 @@ footer {
   color: #3fb950;
   letter-spacing: 0.5px;
 }
-
 
 /* ==========================================================
   FAQ SECTION
@@ -1406,7 +1412,6 @@ nav {
   text-decoration: none;
   font-weight: 500;
   color: #f0f6fc;
-
   transition: color 0.3s ease;
 }
 
@@ -1420,57 +1425,42 @@ nav {
 
 .ai-hero {
   text-align: center;
-
   padding: 90px 20px;
-
   background: linear-gradient(135deg, #0f172a, #1b4332, #2ea043);
-
   color: white;
 }
 
 .hero-content {
   max-width: 900px;
   margin: 0 auto;
-
   background-color: transparent;
 }
 
 .hero-label {
   display: inline-block;
-
   padding: 6px 14px;
-
   border: 1px solid #2ea043;
   border-radius: 20px;
-
   color: #2ea043;
-
   font-size: 13px;
   font-weight: bold;
   letter-spacing: 2px;
-
   background-color: #090d16;
 }
 
 .ai-hero h1 {
   margin-top: 25px;
   margin-bottom: 20px;
-
   font-size: 48px;
   line-height: 1.2;
-
   background-color: transparent;
 }
 
 .ai-hero p {
   max-width: 700px;
-
   margin: 0 auto;
-
   font-size: 19px;
-
   color: #d1d5db;
-
   background-color: transparent;
 }
 
@@ -1487,27 +1477,18 @@ nav {
 
 .section-title {
   text-align: center;
-
   font-size: 36px;
-
   margin-bottom: 15px;
-
   color: #f0f6fc;
-
   background-color: transparent;
 }
 
 .section-description {
   max-width: 700px;
-
   margin: 0 auto 45px auto;
-
   text-align: center;
-
   color: #8b949e;
-
   font-size: 17px;
-
   background-color: transparent;
 }
 
@@ -1517,23 +1498,16 @@ nav {
 
 .path-grid {
   max-width: 1200px;
-
   margin: 0 auto;
-
   display: grid;
-
   grid-template-columns: repeat(4, 1fr);
-
   gap: 25px;
 }
 
 .path-card {
   background-color: #1e293b;
-
   padding: 30px 25px;
-
   border-radius: 12px;
-
   border: 1px solid #263449;
 
   transition:
@@ -1544,43 +1518,30 @@ nav {
 
 .path-card:hover {
   transform: translateY(-6px);
-
   background-color: #243248;
-
   border-color: #2ea043;
 }
 
 .path-number {
   display: block;
-
   margin-bottom: 20px;
-
   color: #2ea043;
-
   font-size: 14px;
-
   font-weight: bold;
-
   letter-spacing: 2px;
-
   background-color: transparent;
 }
 
 .path-card h3 {
   font-size: 22px;
-
   margin-bottom: 12px;
-
   color: #f0f6fc;
-
   background-color: transparent;
 }
 
 .path-card p {
   color: #8b949e;
-
   font-size: 15px;
-
   background-color: transparent;
 }
 
@@ -1590,31 +1551,20 @@ nav {
 
 .resource-grid {
   max-width: 1200px;
-
   margin: 0 auto;
-
   display: grid;
-
   grid-template-columns: repeat(3, 1fr);
-
   gap: 25px;
 }
 
 .resource-card {
   background-color: #1e293b;
-
   padding: 28px;
-
   border-radius: 12px;
-
   border: 1px solid #263449;
-
   display: flex;
-
   flex-direction: column;
-
   min-height: 360px;
-
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease,
@@ -1623,9 +1573,7 @@ nav {
 
 .resource-card:hover {
   transform: translateY(-6px);
-
   border-color: #2ea043;
-
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
 }
 
@@ -1635,26 +1583,18 @@ nav {
 
 .resource-top {
   display: flex;
-
   justify-content: space-between;
-
   align-items: center;
-
   gap: 10px;
-
   margin-bottom: 20px;
-
   background-color: transparent;
 }
 
 .resource-type,
 .resource-level {
   font-size: 11px;
-
   font-weight: bold;
-
   letter-spacing: 1px;
-
   background-color: transparent;
 }
 
@@ -1664,29 +1604,21 @@ nav {
 
 .resource-level {
   color: #8b949e;
-
   text-align: right;
 }
 
 .resource-card h3 {
   font-size: 22px;
-
   line-height: 1.3;
-
   margin-bottom: 15px;
-
   color: #f0f6fc;
-
   background-color: transparent;
 }
 
 .resource-card p {
   font-size: 15px;
-
   color: #8b949e;
-
   margin-bottom: 20px;
-
   background-color: transparent;
 }
 
@@ -1696,27 +1628,18 @@ nav {
 
 .resource-tags {
   display: flex;
-
   flex-wrap: wrap;
-
   gap: 8px;
-
   margin-top: auto;
-
   margin-bottom: 20px;
-
   background-color: transparent;
 }
 
 .resource-tags span {
   padding: 5px 10px;
-
   border-radius: 5px;
-
   background-color: #090d16;
-
   color: #8b949e;
-
   font-size: 12px;
 }
 
@@ -1726,41 +1649,27 @@ nav {
 
 .resource-footer {
   display: flex;
-
   justify-content: space-between;
-
   align-items: center;
-
   gap: 15px;
-
   background-color: transparent;
 }
 
 .cost {
   color: #2ea043;
-
   font-size: 12px;
-
   font-weight: bold;
-
   background-color: transparent;
 }
 
 .resource-button {
   display: inline-block;
-
   padding: 9px 15px;
-
   border-radius: 5px;
-
   background-color: #090d16;
-
   color: #2ea043;
-
   text-decoration: none;
-
   font-size: 13px;
-
   font-weight: bold;
 
   transition:
@@ -1770,7 +1679,6 @@ nav {
 
 .resource-button:hover {
   background-color: #2ea043;
-
   color: white;
 }
 
@@ -1784,53 +1692,37 @@ nav {
 
 .support-grid {
   max-width: 1000px;
-
   margin: 0 auto;
-
   display: grid;
-
   grid-template-columns: repeat(3, 1fr);
-
   gap: 25px;
 }
 
 .support-card {
   background-color: #1e293b;
-
   padding: 25px;
-
   border-radius: 10px;
-
   border-left: 4px solid #2ea043;
 }
 
 .support-card h3 {
   font-size: 21px;
-
   margin-bottom: 10px;
-
   color: #f0f6fc;
-
   background-color: transparent;
 }
 
 .support-card p {
   color: #8b949e;
-
   margin-bottom: 15px;
-
   background-color: transparent;
 }
 
 .support-card a {
   color: #2ea043;
-
   text-decoration: none;
-
   font-weight: bold;
-
   font-size: 14px;
-
   background-color: transparent;
 }
 
@@ -1840,37 +1732,27 @@ nav {
 
 .guide-section {
   max-width: 1000px;
-
   margin: 0 auto;
 }
 
 .guide-section details {
   background-color: #1e293b;
-
   border: 1px solid #263449;
-
   border-radius: 8px;
-
   margin-bottom: 12px;
-
   padding: 18px 22px;
 }
 
 .guide-section summary {
   cursor: pointer;
-
   color: #f0f6fc;
-
   font-weight: bold;
-
   background-color: transparent;
 }
 
 .guide-section details p {
   margin-top: 15px;
-
   color: #8b949e;
-
   background-color: transparent;
 }
 
@@ -1880,13 +1762,9 @@ nav {
 
 .home-footer {
   text-align: center;
-
   padding: 30px 20px;
-
   border-top: 1px solid #1e293b;
-
   margin-top: 40px;
-
   color: #8b949e;
 }
 
@@ -1923,17 +1801,13 @@ nav {
 @media (max-width: 650px) {
   nav {
     flex-direction: column;
-
     gap: 20px;
-
     padding: 20px;
   }
 
   .nav-menu {
     gap: 15px;
-
     flex-wrap: wrap;
-
     justify-content: center;
   }
 
@@ -1957,5 +1831,476 @@ nav {
 
   .section-title {
     font-size: 30px;
+  }
+}
+
+/* ==========================================================
+   PLATFORMS DIRECTORY PAGE
+   ========================================================== */
+
+.platforms-page {
+  background-color: #090d16;
+  color: #f0f6fc;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ==========================================================
+   PLATFORM DIRECTORY HERO
+   ========================================================== */
+
+.platform-directory-hero {
+  background: linear-gradient(135deg, #0f172a, #1b4332, #2ea043);
+
+  color: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+
+  border-bottom: 1px solid #1e293b;
+}
+
+.platform-directory-hero-content {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.platform-hero-label {
+  display: inline-block;
+
+  padding: 6px 16px;
+
+  border: 1px solid #2ea043;
+  border-radius: 20px;
+
+  background-color: #090d16;
+
+  color: #2ea043;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  letter-spacing: 2px;
+
+  margin-bottom: 15px;
+}
+
+.platform-directory-hero h1 {
+  font-size: 46px;
+  line-height: 1.2;
+
+  margin: 10px 0 20px;
+
+  color: #ffffff;
+}
+
+.platform-directory-hero p {
+  max-width: 720px;
+
+  margin: 0 auto;
+
+  color: #d1d5db;
+
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* ==========================================================
+   MAIN DIRECTORY
+   ========================================================== */
+
+.platform-directory-main {
+  max-width: 1250px;
+
+  margin: 0 auto;
+
+  padding: 70px 20px 80px;
+}
+
+/* ==========================================================
+   CATEGORY SECTION
+   ========================================================== */
+
+.platform-category {
+  margin-bottom: 80px;
+}
+
+.platform-category-heading {
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 20px;
+
+  margin-bottom: 35px;
+
+  padding-bottom: 20px;
+
+  border-bottom: 1px solid #263449;
+}
+
+.platform-category-number {
+  flex-shrink: 0;
+
+  color: #2ea043;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  letter-spacing: 2px;
+
+  padding-top: 7px;
+}
+
+.platform-category-heading h2 {
+  color: #f0f6fc;
+
+  font-size: 30px;
+  line-height: 1.3;
+
+  margin-bottom: 8px;
+}
+
+.platform-category-heading p {
+  color: #8b949e;
+
+  font-size: 16px;
+  line-height: 1.6;
+
+  max-width: 750px;
+}
+
+/* ==========================================================
+   PLATFORM CARD GRID
+   ========================================================== */
+
+.platform-directory-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 25px;
+}
+
+/* ==========================================================
+   DIRECTORY CARD
+   ========================================================== */
+
+.directory-card {
+  background-color: #1e293b;
+
+  border: 1px solid #263449;
+
+  border-radius: 12px;
+
+  padding: 26px;
+
+  min-height: 330px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.directory-card:hover {
+  background-color: #243248;
+
+  border-color: #2ea043;
+
+  transform: translateY(-6px);
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* ==========================================================
+   CARD TOP
+   ========================================================== */
+
+.directory-card-top {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  gap: 10px;
+
+  margin-bottom: 20px;
+
+  background-color: transparent;
+}
+
+.directory-type,
+.directory-level {
+  background-color: transparent;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  letter-spacing: 1px;
+}
+
+.directory-type {
+  color: #2ea043;
+}
+
+.directory-level {
+  color: #8b949e;
+
+  text-align: right;
+}
+
+/* ==========================================================
+   CARD CONTENT
+   ========================================================== */
+
+.directory-card h3 {
+  color: #f0f6fc;
+
+  font-size: 21px;
+
+  line-height: 1.35;
+
+  margin-bottom: 14px;
+
+  background-color: transparent;
+}
+
+.directory-card p {
+  color: #8b949e;
+
+  font-size: 14px;
+
+  line-height: 1.6;
+
+  margin-bottom: 20px;
+
+  background-color: transparent;
+}
+
+/* ==========================================================
+   DIRECTORY TAGS
+   ========================================================== */
+
+.directory-tags {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 8px;
+
+  margin-top: auto;
+
+  margin-bottom: 22px;
+
+  background-color: transparent;
+}
+
+.directory-tags span {
+  background-color: #090d16;
+
+  color: #8b949e;
+
+  border: 1px solid #263449;
+
+  padding: 5px 10px;
+
+  border-radius: 5px;
+
+  font-size: 11px;
+}
+
+/* ==========================================================
+   DIRECTORY BUTTON
+   ========================================================== */
+
+.directory-button {
+  display: block;
+
+  width: 100%;
+
+  padding: 10px 15px;
+
+  background-color: #090d16;
+
+  color: #2ea043;
+
+  border: 1px solid #263449;
+
+  border-radius: 6px;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  font-size: 13px;
+
+  font-weight: 700;
+
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.directory-button:hover {
+  background-color: #2ea043;
+
+  color: #ffffff;
+
+  border-color: #2ea043;
+}
+
+/* ==========================================================
+   FINAL DISCOVERY CTA
+   ========================================================== */
+
+.platform-discovery {
+  max-width: 900px;
+
+  margin: 20px auto 0;
+
+  padding: 55px 30px;
+
+  text-align: center;
+
+  background-color: #1e293b;
+
+  border: 1px solid #263449;
+
+  border-radius: 16px;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+.platform-discovery h2 {
+  color: #f0f6fc;
+
+  font-size: 30px;
+
+  margin-bottom: 12px;
+
+  background-color: transparent;
+}
+
+.platform-discovery p {
+  max-width: 650px;
+
+  margin: 0 auto 25px;
+
+  color: #8b949e;
+
+  font-size: 16px;
+
+  line-height: 1.6;
+
+  background-color: transparent;
+}
+
+.platform-discovery-button {
+  display: inline-block;
+
+  padding: 11px 22px;
+
+  background-color: #090d16;
+
+  color: #2ea043;
+
+  border: 1px solid #2ea043;
+
+  border-radius: 6px;
+
+  text-decoration: none;
+
+  font-size: 14px;
+
+  font-weight: 700;
+
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.platform-discovery-button:hover {
+  background-color: #2ea043;
+
+  color: #ffffff;
+}
+
+/* ==========================================================
+   TABLET
+   ========================================================== */
+
+@media (max-width: 1000px) {
+  .platform-directory-main {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .platform-directory-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .platform-directory-hero h1 {
+    font-size: 40px;
+  }
+}
+
+/* ==========================================================
+   MOBILE
+   ========================================================== */
+
+@media (max-width: 650px) {
+  .platform-directory-hero {
+    padding: 65px 20px;
+  }
+
+  .platform-directory-hero h1 {
+    font-size: 34px;
+  }
+
+  .platform-directory-hero p {
+    font-size: 16px;
+  }
+
+  .platform-directory-main {
+    padding: 50px 20px 60px;
+  }
+
+  .platform-category {
+    margin-bottom: 60px;
+  }
+
+  .platform-category-heading {
+    gap: 12px;
+  }
+
+  .platform-category-heading h2 {
+    font-size: 25px;
+  }
+
+  .platform-category-heading p {
+    font-size: 14px;
+  }
+
+  .platform-directory-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .directory-card {
+    min-height: 0;
+  }
+
+  .platform-discovery {
+    padding: 40px 20px;
+  }
+
+  .platform-discovery h2 {
+    font-size: 26px;
   }
 }
