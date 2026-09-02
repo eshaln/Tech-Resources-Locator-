@@ -304,13 +304,16 @@ body {
   text-transform: uppercase;
   border: 2px solid #ccc;
   font-size: 18px;
+
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+    
 }
 .contact-form button:hover {
   background-color: #2ea043;
   color: white;
-  transition:
-    background-color 0.3s,
-    color 0.3s;
+  
 }
 
 .contact-right {
