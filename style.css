@@ -92,12 +92,14 @@ body {
   margin: 10px;
   border-radius: 5px;
   width: 400px;
+  border: 2px solid #263449;
   height: 400px;
   background-color: #1e293b;
   border-radius: 24px;
 }
 .team-member:hover {
   background-color: #243248;
+  border-color: #2ea043;
   transition:
     transform 0.3s,
     box-shadow 0.3s background-color 0.1s;
