@@ -226,10 +226,9 @@ body {
    CONTACT PAGE
    ==========================================================*/
 .contact-hero {
-  background: linear-gradient(135deg, #0f172a, #2ea043);
-  color: white;
+ 
   padding: 60px 20px;
-  text-align: center;
+  
 }
 .contact-hero h1 {
   font-size: 36px;
