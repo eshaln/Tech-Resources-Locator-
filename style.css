@@ -247,14 +247,10 @@ body {
 .container {
   width: 100%;
   padding: 60px 20px;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   display: block;
   background-color: #090d16;
-
   color: #2ea043;
-
   font-weight: bold;
 }
 .contact-container {
