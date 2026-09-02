@@ -707,13 +707,14 @@ footer {
 .supporting-skills h2 {
   font-size: 21px;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   margin-bottom: 10px;
 }
 .supporting-skills p {
   color: #8b949e;
   margin-bottom: 15px;
 }
+
 
 
 
