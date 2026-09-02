@@ -96,7 +96,24 @@ body {
 /* ========================================================== 
    ABOUT HERO
    ========================================================== */
-
+  .about-hero,
+   .contact-hero, 
+   .web-container, 
+   .software-container{
+  background: linear-gradient(135deg, #0f172a, #2ea043);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+.about-hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.about-hero p {
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: bold;
+}
   /* ========================================================== 
    Project Team Section
    ========================================================== */
@@ -199,25 +216,12 @@ body {
   margin-top: 20px;
   gap: 20px;
 }
+
 .icon i:hover,
 .email i:hover {
   color: grey;
 }
-.about-hero {
-  background: linear-gradient(135deg, #0f172a, #2ea043);
-  color: white;
-  padding: 60px 20px;
-  text-align: center;
-}
-.about-hero h1 {
-  font-size: 48px;
-  margin-bottom: 20px;
-}
-.about-hero p {
-  font-size: 20px;
-  line-height: 1.6;
-  font-weight: bold;
-}
+
 /* ==========================================================
    CONTACT PAGE
    ==========================================================*/
