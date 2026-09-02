@@ -10,6 +10,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #090d16;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
 nav {
   display: flex;
 
@@ -41,10 +48,7 @@ nav {
 .nav-menu a:hover {
   color: #2563eb;
 }
-body {
-  background-color: #090d16;
-  font-family: Arial, Helvetica, sans-serif;
-}
+
 
 .about-card h1 {
   font-size: 25px;
