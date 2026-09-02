@@ -262,6 +262,7 @@ body {
   flex-wrap: nowrap;
 }
 /* Contact Form*/
+
 .contact-form {
   max-width: 550px;
   width: 60%;
@@ -298,7 +299,7 @@ body {
   padding: 20px;
   border-radius: 5px;
   color: #2ea043;
-
+  cursor: pointer;
   font-weight: bold;
   text-transform: uppercase;
   border: 2px solid #ccc;
