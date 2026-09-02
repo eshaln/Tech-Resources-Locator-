@@ -166,7 +166,8 @@ body {
 }
 
 .social-icons {
-    border-top: 1px solid #263449;
+  border-top: 1px solid #263449;
+   padding-top:15px;
   display: flex;
   justify-content: center;
   align-items: center;
