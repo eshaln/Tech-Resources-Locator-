@@ -261,6 +261,7 @@ body {
   width: 100%;
   flex-wrap: nowrap;
 }
+/* Contact Form*/
 .contact-form {
   max-width: 550px;
   width: 60%;
