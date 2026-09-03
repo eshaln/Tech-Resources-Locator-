@@ -422,8 +422,10 @@ footer {
   font-size: 42px;
 }
 
-#web-label {
+#web-label 
+#software-label {
   display: inline-block;
+  
   padding: 6px 14px;
   border: 1px solid #2ea043;
   border-radius: 20px;
