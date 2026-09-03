@@ -459,12 +459,14 @@ footer {
   margin-bottom: 15px;
 }
 
-.resources p {
+.resources p 
+.web-learning p
+.software-learning p
+.resource-heading >  p {
   font-size: 19px;
   color: #8b949e;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 15px;
+ 
 }
 /* ==========================================================
    WEB DEV LEARNING PATH
