@@ -538,12 +538,17 @@ footer {
 
   font-size: 15px;
 
-  
-
   text-align: left;
 }
 
-
+.web-path p {
+   margin: 0;
+   } 
+   
+.software-path p { 
+  margin: 0;
+ }
+ 
 .path-number {
   display: block;
 
