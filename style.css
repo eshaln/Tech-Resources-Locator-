@@ -684,7 +684,7 @@ footer {
   margin-top: auto;
 
   margin-bottom: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  
 
   background-color: transparent;
 }
@@ -701,14 +701,9 @@ footer {
   font-size: 12px;
 }
 
-/* ==========================================================
-   RESOURCE TYPE & LEVEL
-   ========================================================== */
 
 
-/* ==========================================================
-   RESOURCE FOOTER
-   ========================================================== */
+/* RESOURCE FOOTER */
 
 .resource-footer {
   display: flex;
@@ -719,11 +714,9 @@ footer {
 
   gap: 15px;
 
-  background-color: transparent;
+ 
 }
-/* ==========================================================
-   RESOURCE COST
-   ========================================================== */
+
 .cost {
   color: #2ea043;
 
@@ -734,9 +727,7 @@ footer {
   background-color: transparent;
 }
 
-/* ==========================================================
-   RESOURCE BUTTON
-   ========================================================== */
+
 
 .resource-button {
   display: inline-block;
