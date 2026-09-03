@@ -261,6 +261,7 @@ body {
   width: 100%;
   flex-wrap: nowrap;
 }
+
 /* Contact Form*/
 
 .contact-form {
@@ -315,6 +316,8 @@ body {
   color: white;
   
 }
+
+/* Contact Right Side */
 
 .contact-right {
   display: flex;
