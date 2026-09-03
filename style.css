@@ -806,6 +806,12 @@ footer {
 /* ==========================================================
    RESOURCE GUIDE
    ========================================================== */
+.resource-guide {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
 
 .resource-guide h1 {
   color: white;
@@ -813,11 +819,6 @@ footer {
   margin-bottom: 15px;
 }
 
-.resource-guide {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 40px 20px;
-}
 
 .resource-guide details {
   background-color: #1e293b;
