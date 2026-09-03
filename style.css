@@ -482,17 +482,33 @@ footer {
    ========================================================== */
 
 
-.web-p1 {
+.web-p1,
+.software-p1 {
   max-width: 1200px;
 
   margin: 0 auto;
 
   display: grid;
-
   grid-template-columns: repeat(4, 1fr);
-
   gap: 25px;
 }
+
+.web-path,
+.software-path {
+  background-color: #1e293b;
+
+  padding: 30px 25px;
+
+  border-radius: 12px;
+
+  border: 1px solid #263449;
+
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    background-color 0.3s ease;
+}
+
 .web-path h1 {
   font-size: 22px;
 
@@ -515,20 +531,7 @@ footer {
   text-align: left;
 }
 
-.web-path {
-  background-color: #1e293b;
 
-  padding: 30px 25px;
-
-  border-radius: 12px;
-
-  border: 1px solid #263449;
-
-  transition:
-    transform 0.3s ease,
-    border-color 0.3s ease,
-    background-color 0.3s ease;
-}
 .path-number {
   display: block;
 
