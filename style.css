@@ -515,24 +515,30 @@ footer {
   border-color: #2ea043;
 }
 
-.web-path h1 {
+.web-path h1,
+.software-path h1 {
   font-size: 22px;
-
-  margin-bottom: 12px;
 
   color: #f0f6fc;
 
-  background-color: transparent;
-
   text-align: left;
 }
+.web-path h1{
+  margin-bottom:12px;
 
-.web-path p {
+}
+.software-path h1 {
+   min-height: 52px; 
+   margin: 12px 0; 
+  }
+
+.web-path p,
+.software-path p {
   color: #8b949e;
 
   font-size: 15px;
 
-  background-color: transparent;
+  
 
   text-align: left;
 }
