@@ -364,6 +364,9 @@ body {
 .info-item span {
   font-size: 20px;
 }
+
+/* FAQ */
+
 .faq-questions {
   display: flex;
   flex-direction: column;
@@ -390,6 +393,11 @@ details {
   font-size: 20px;
   color: white;
 }
+
+/* ==========================================================
+   FOOTER
+   ========================================================== */
+
 footer {
   background-color: #0f172a;
   color: #f0f6fc;
@@ -401,8 +409,19 @@ footer {
 }
 
 /* ==========================================================
-   WEB DEVELOPMENT SECTION
+   WEB DEVELOPMENT 
    ========================================================== */
+
+.web-container {
+  padding: 60px 20px;
+ 
+}
+
+.web-container h2
+.software-container h2 {
+  font-size: 42px;
+}
+
 #web-label {
   display: inline-block;
   padding: 6px 14px;
@@ -414,16 +433,6 @@ footer {
   letter-spacing: 2px;
   background-color: #090d16;
   margin-bottom: 10px;
-}
-.web-container {
-  background: linear-gradient(135deg, #0f172a, #2ea043);
-  color: white;
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.web-container h2 {
-  font-size: 42px;
 }
 
 /* ==========================================================
