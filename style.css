@@ -417,12 +417,12 @@ footer {
  
 }
 
-.web-container h2
+.web-container h2,
 .software-container h2 {
   font-size: 42px;
 }
 
-#web-label 
+#web-label, 
 #software-label {
   display: inline-block;
 
@@ -441,9 +441,9 @@ footer {
    SECTION HEADINGS
    ========================================================== */
 
-.resources h1 
-.web-learning h1
-.software-learning h1 
+.resources h1, 
+.web-learning h1,
+.software-learning h1, 
 .resource-heading h1 {
   font-size: 40px;
   font-weight: bold;
@@ -451,9 +451,9 @@ footer {
   color: white;
  
 }
-.resources h1 
-.web-learning h1
-.software-learning h1 
+.resources h1,
+.web-learning h1,
+.software-learning h1, 
 .resource-heading h1 {
   margin-top: 40px;
   margin-bottom: 15px;
@@ -485,9 +485,8 @@ footer {
 .web-p1,
 .software-p1 {
   max-width: 1200px;
-
   margin: 0 auto;
-
+  
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 25px;
@@ -497,7 +496,7 @@ footer {
 .software-path {
   background-color: #1e293b;
   border-radius: 12px;
-
+  padding:30px 20px;
   border: 1px solid #263449;
 
   transition:
