@@ -649,10 +649,30 @@ footer {
   margin-bottom: 20px;
 }
 
+/* RESOURCE TYPE */
+.resource-type,
+.resource-level {
+  font-size: 11px;
 
-/* ==========================================================
-   RESOURCE TAGS
-   ========================================================== */
+  font-weight: bold;
+
+  letter-spacing: 1px;
+
+  background-color: transparent;
+}
+
+.resource-type {
+  color: #2ea043;
+}
+
+.resource-level {
+  color: #8b949e;
+
+  text-align: right;
+}
+
+
+/* RESOURCE TAGS */
 
 .resource-tag {
   display: flex;
@@ -680,35 +700,11 @@ footer {
 
   font-size: 12px;
 }
-/* ==========================================================
-   RESOURCE CARD CONTENT
-   ========================================================== */
-
 
 /* ==========================================================
    RESOURCE TYPE & LEVEL
    ========================================================== */
 
-.resource-type,
-.resource-level {
-  font-size: 11px;
-
-  font-weight: bold;
-
-  letter-spacing: 1px;
-
-  background-color: transparent;
-}
-
-.resource-type {
-  color: #2ea043;
-}
-
-.resource-level {
-  color: #8b949e;
-
-  text-align: right;
-}
 
 /* ==========================================================
    RESOURCE FOOTER
