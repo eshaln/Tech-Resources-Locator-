@@ -438,7 +438,7 @@ footer {
 }
 
 /* ==========================================================
-   RESOURCES HEADING
+   SECTION HEADINGS
    ========================================================== */
 
 .resources h1 
@@ -449,8 +449,9 @@ footer {
   font-weight: bold;
   text-align: center;
   color: white;
-  margin-top: 40px;
+ 
 }
+
 .resources p {
   font-size: 19px;
   color: #8b949e;
