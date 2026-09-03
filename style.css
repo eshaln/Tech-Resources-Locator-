@@ -478,25 +478,9 @@ footer {
     line-height: 1.5; 
   }
 /* ==========================================================
-   WEB DEV LEARNING PATH
+   LEARNING PATHS
    ========================================================== */
 
-.web-learning h1 {
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-  margin-top: 40px;
-  margin-bottom: 15px;
-}
-
-.web-learning p {
-  font-size: 19px;
-  color: #8b949e;
-  text-align: center;
-
-  margin: 0 auto 45px auto;
-}
 
 .web-p1 {
   max-width: 1200px;
